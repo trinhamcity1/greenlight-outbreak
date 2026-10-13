@@ -1,0 +1,22 @@
+# Step 3, round 2: age recipes (kin_age, age_trend), ranking-based safety alarm, Green Light inputs for any rule.
+name = "exp08_os_replay"
+kinship_run = "exp05b_kinship_replay"   # votes from Step 1 with the seasonal threshold start
+day0_mode = "threshold"
+season_threshold = 20
+max_day = 90
+day_step = 2
+test_from_day = 91
+test_to_day = 182
+min_test = 200
+min_test_deaths = 20
+min_class = 10
+lam0 = 10.0            # chosen for 23 of 23 outbreaks in Exp. 6b
+min_agree_kin = 3      # consensus: at least 3 past outbreaks collected the field
+agree_share = 0.8      #            and at least 80% agree on its direction
+stability_lag = 8      # Green Light: compare OS risk scores with those from 8 days earlier
+max_fit_rows = 100000
+n_jobs = 4
+
+[override.covid_2020]  # July 2020, as in Exp. 2/3/6 (day 0 = 2020-02-26 is unchanged)
+test_from_day = 126
+test_to_day = 156

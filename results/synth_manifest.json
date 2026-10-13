@@ -1,0 +1,266 @@
+[
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_covid_2020_day44.parquet",
+    "rows": 50000,
+    "sha256": "977cb33069d65d099352561af73b5af12fc0d0e0bb5d9e215817c8c250d5f304",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2020; day=44 (day 0 = 2020-02-26); learned from 9333 real records (2822 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_covid_2020_day44.parquet",
+    "rows": 50000,
+    "sha256": "f89085f88e70fce0375bd6a73533a46e21410ef74106b925c6e5766d77b21804",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=covid_2020; trained on 9333 of the 9333 real records entered up to day 44; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_covid_2021_day22.parquet",
+    "rows": 50000,
+    "sha256": "384bf7478aa87e3c6fbe091d93a8fb064802af29980484c24a05f58eb030f8d1",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2021; day=22 (day 0 = 2021-01-01); learned from 24097 real records (7797 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_covid_2021_day22.parquet",
+    "rows": 50000,
+    "sha256": "ba40492a299393e0469223bd523c7c885af9a62b941e88e129ad17a36f001d65",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=covid_2021; trained on 20000 of the 24097 real records entered up to day 22; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_covid_2022_day22.parquet",
+    "rows": 50000,
+    "sha256": "b29e362fa8ee6dfa43e1fa857df1199e770ba52fbc9d1849f1e3bd075641e5f3",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2022; day=22 (day 0 = 2022-01-01); learned from 18117 real records (4817 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_covid_2022_day22.parquet",
+    "rows": 50000,
+    "sha256": "50cd5038f8298bd4217f567e97554a1d2618984928b247e63aed579df99e39b3",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=covid_2022; trained on 18117 of the 18117 real records entered up to day 22; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2013_day52.parquet",
+    "rows": 50000,
+    "sha256": "62b41030ad9598db0d314fce6a9d43f4bfdc163fa38ee63faaa52bc98221cf09",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2013; day=52 (day 0 = 2013-04-02); learned from 1243 real records (244 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2013_day52.parquet",
+    "rows": 50000,
+    "sha256": "8e77233d0df7d071f2da428dddc9983d69f398715af9965586a640482736587d",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2013; trained on 1243 of the 1243 real records entered up to day 52; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2014_day32.parquet",
+    "rows": 50000,
+    "sha256": "5e3f644bdbbe906ba48a7885a54be9614b9df3b53f70e80e3136e998ee958d9a",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2014; day=32 (day 0 = 2014-04-01); learned from 131 real records (21 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2014_day32.parquet",
+    "rows": 50000,
+    "sha256": "d17ed43876781489d93287fbf1a73a1b93e8d7d2a16b34d81b03bba272f3b243",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2014; trained on 131 of the 131 real records entered up to day 32; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2015_day60.parquet",
+    "rows": 50000,
+    "sha256": "e9fc147722450590b083bf6d39fe82290aab9b0cb20c3e4ddd19c7ee8d8753fd",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2015; day=60 (day 0 = 2015-03-09); learned from 156 real records (22 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2015_day60.parquet",
+    "rows": 50000,
+    "sha256": "20813241b192bcbd39ddf2450ece57155637886bc77acd742431e9127757ed08",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2015; trained on 156 of the 156 real records entered up to day 60; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2016_day20.parquet",
+    "rows": 50000,
+    "sha256": "c0a9c4d5732637c89015e1dca5bf87fcbf2fa836d71dd74585c3f8397d62d306",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2016; day=20 (day 0 = 2016-02-12); learned from 124 real records (29 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2016_day20.parquet",
+    "rows": 50000,
+    "sha256": "b122f02dd35ab2e18f6ac80a078cfe7fde60f96b028b25949895e599ab068eab",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2016; trained on 124 of the 124 real records entered up to day 20; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2017_day24.parquet",
+    "rows": 50000,
+    "sha256": "4393473eea38d4d65736773160976bc140121e6d623b913b68b0086af73841c0",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2017; day=24 (day 0 = 2017-02-01); learned from 110 real records (23 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2017_day24.parquet",
+    "rows": 50000,
+    "sha256": "c6d10bd07610d12a494079105f8e5785036ed8b2dd737f74ca496280401b23c2",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2017; trained on 110 of the 110 real records entered up to day 24; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2018_day22.parquet",
+    "rows": 50000,
+    "sha256": "d21eb80f7e58734caaafe49ef8f9c1bd4185687c0c7b1362e389dd3968199781",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2018; day=22 (day 0 = 2018-03-01); learned from 164 real records (30 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2018_day22.parquet",
+    "rows": 50000,
+    "sha256": "f79caf1eb67964de670b2d0d5a86a4d12d2f3f151dee762afd378c4a79bfa19e",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2018; trained on 164 of the 164 real records entered up to day 22; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2019_day72.parquet",
+    "rows": 50000,
+    "sha256": "af8ab57721bbe419d123a1a02f8d654507fb9cd289802f20827023ce17831588",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2019; day=72 (day 0 = 2019-03-11); learned from 239 real records (23 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2019_day72.parquet",
+    "rows": 50000,
+    "sha256": "f182a997a3cad7be6242150746a7a6a113977939ca344eb611de7774f963ebd6",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2019; trained on 239 of the 239 real records entered up to day 72; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2020_day44.parquet",
+    "rows": 50000,
+    "sha256": "533785a6b5fa61dc7d9d2141847d240fa343decc1b4db0450767f7ac37c536c4",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2020; day=44 (day 0 = 2020-01-09); learned from 285 real records (22 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2020_day44.parquet",
+    "rows": 50000,
+    "sha256": "2474195553dc24c1a0390963b4aa481923c10087d8d86654219a30d6f42de681",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2020; trained on 285 of the 285 real records entered up to day 44; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2021_day32.parquet",
+    "rows": 50000,
+    "sha256": "93afcb427853289a113256ff1580cf6f46252e58d22af6f35d0505c1ed1fc83f",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2021; day=32 (day 0 = 2021-04-07); learned from 104 real records (20 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2021_day32.parquet",
+    "rows": 50000,
+    "sha256": "2e55d94fad81047d5d1fbf3019fa17f61d2d82af94b8a7a1cdb044b0971b9ae7",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2021; trained on 104 of the 104 real records entered up to day 32; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_flu_2022_day20.parquet",
+    "rows": 50000,
+    "sha256": "8f4f2104b52408e228014c947cd327ca2f84917fb85b94d40e0e2829d78e3a27",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2022; day=20 (day 0 = 2022-01-01); learned from 3293 real records (543 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_flu_2022_day20.parquet",
+    "rows": 50000,
+    "sha256": "4fddde229b07bfc6a15bf0bb6bd0b9ed03ef16f5a9b97ab9792a2f0b9d3f5c3b",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=flu_2022; trained on 3293 of the 3293 real records entered up to day 20; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2014_day46.parquet",
+    "rows": 50000,
+    "sha256": "b9c619645e79f7f95c3fa5836d2eb280a7dd73b61d62dc07676830b95ca79d3b",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2014; day=46 (day 0 = 2014-03-25); learned from 285 real records (23 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2014_day46.parquet",
+    "rows": 50000,
+    "sha256": "ee8ded3be23fa4e45387f04ba86981f6394829109d546b07a34919267d3b2697",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2014; trained on 285 of the 285 real records entered up to day 46; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2015_day76.parquet",
+    "rows": 50000,
+    "sha256": "5bb31007ef52a246a77460cf6028262592e225ce783a35e3f603800eee78484d",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2015; day=76 (day 0 = 2015-02-23); learned from 554 real records (27 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2015_day76.parquet",
+    "rows": 50000,
+    "sha256": "bd43d17294a131bf744478204dd0055755bae6a26f9943829cf929686b2806bc",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2015; trained on 554 of the 554 real records entered up to day 76; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2016_day38.parquet",
+    "rows": 50000,
+    "sha256": "9b13e7a1850cd2701d5e20edec779789dd290b8f5fed747ef16655187a63791d",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2016; day=38 (day 0 = 2016-03-07); learned from 360 real records (31 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2016_day38.parquet",
+    "rows": 50000,
+    "sha256": "078c03af69ee5857d42632972b3c0aa2b0a463ea3a1fdaed26cb1fe8c9bcf3a3",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2016; trained on 360 of the 360 real records entered up to day 38; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2017_day44.parquet",
+    "rows": 50000,
+    "sha256": "b957dbc2b12e3d72c206e4e77dc609c40c5f17ed2aeb79bbd174802d51b6dc00",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2017; day=44 (day 0 = 2017-02-09); learned from 274 real records (21 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2017_day44.parquet",
+    "rows": 50000,
+    "sha256": "0a4ba5bfb20679be90b9e42ea9ebd4b36fa2aa4295289ea70d665f0dffed9cce",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2017; trained on 274 of the 274 real records entered up to day 44; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2018_day66.parquet",
+    "rows": 50000,
+    "sha256": "0685f0ea2648d85f84ef3c7573d41881fa84afe6997dc77be3dcb419fe147a66",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2018; day=66 (day 0 = 2018-01-19); learned from 375 real records (24 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2018_day66.parquet",
+    "rows": 50000,
+    "sha256": "bbed3b826805c8294c2c3d9841ad43fac46325a9958d4a40954f08f1be10974b",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2018; trained on 375 of the 375 real records entered up to day 66; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2019_day42.parquet",
+    "rows": 50000,
+    "sha256": "2b835c12cf1414df6fa0a7212c272a1b9088884aae49319513ad7d02cc108ded",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2019; day=42 (day 0 = 2019-03-08); learned from 309 real records (20 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2019_day42.parquet",
+    "rows": 50000,
+    "sha256": "ddae0187360899e2529fa3be45c111ea3e403e45f886ac1f09ff24861fc2fbc0",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2019; trained on 309 of the 309 real records entered up to day 42; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2020_day58.parquet",
+    "rows": 50000,
+    "sha256": "fa70b33722036de058a80029f28afe4ee2a14c7ad9c16a24b7b2491f7236a724",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2020; day=58 (day 0 = 2020-01-02); learned from 352 real records (21 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2020_day58.parquet",
+    "rows": 50000,
+    "sha256": "9171475d529139ca59f44b1e076b4b4faddc340d3c7a5e6e93f541dde2233f8d",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2020; trained on 352 of the 352 real records entered up to day 58; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2021_day28.parquet",
+    "rows": 50000,
+    "sha256": "ab0a41598b48c3fab9dbccbaf65bf70157809f8e1c3910720a62f3bb60a03951",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2021; day=28 (day 0 = 2021-01-08); learned from 529 real records (23 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2021_day28.parquet",
+    "rows": 50000,
+    "sha256": "022a785930357a1617f9f6adfd006c42983ad6c4de92484dcb953a03530b88ab",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2021; trained on 529 of the 529 real records entered up to day 28; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_othervirus_2022_day36.parquet",
+    "rows": 50000,
+    "sha256": "371a36eb675c3d13fc66bd9e1ea9e1ddfc51f68ae13f470cb26af1a807d9fa6b",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2022; day=36 (day 0 = 2022-01-02); learned from 1040 real records (50 deaths) entered up to that day; recipe=kin; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_othervirus_2022_day36.parquet",
+    "rows": 50000,
+    "sha256": "fadb68955dffbd3f3b14f6267c20ea02cb9febb6b4ffeeb6028c7b3c9347b3e9",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=othervirus_2022; trained on 1040 of the 1040 real records entered up to day 36; epochs=300; seed=0. Not real patients."
+  }
+]

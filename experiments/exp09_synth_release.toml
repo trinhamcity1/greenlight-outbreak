@@ -1,0 +1,8 @@
+# Step 4: Synth Release on each outbreak's Green Light day; OS generator vs CTGAN baseline.
+name = "exp09_synth_release"
+os_run = "exp08_os_replay"
+n_rows = 50000           # synthetic patients per outbreak and generator
+seed = 0
+ctgan_python = ".venv-ctgan/bin/python"
+ctgan_epochs = 300
+ctgan_max_rows = 20000   # CTGAN trains on at most this many of the real records OS had (time on 4 CPUs)

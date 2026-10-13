@@ -1,0 +1,18 @@
+# Real data only, replayed day by day, on the harmonised library fields (shared by all forms).
+name = "exp03_replay_real"
+model = "logreg"
+min_class = 10
+
+[outbreak.h1n1_2009]
+outbreaks = ["h1n1_2009"]
+day0 = "2009-06-24"      # first record entered
+max_day = 75
+test_from = "2009-09-08" # entries after the training horizon
+test_to = "2009-12-31"
+
+[outbreak.covid_2020]
+outbreaks = ["covid_2020", "covid_2021", "covid_2022"]
+day0 = "2020-02-26"
+max_day = 120
+test_from = "2020-07-01"  # same test month as Exp. 2
+test_to = "2020-07-31"

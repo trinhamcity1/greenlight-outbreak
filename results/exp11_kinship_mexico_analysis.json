@@ -1,0 +1,7 @@
+{
+  "tau_chosen": {
+    "covid_mx_2020": 0.01,
+    "covid_mx_2021": 0.01
+  },
+  "note": "tau fixed from Brazil (Exp. 5b): 0.01 was chosen for 22 of 23 outbreaks"
+}

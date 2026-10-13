@@ -1,0 +1,26 @@
+[
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_covid_mx_2020_day48.parquet",
+    "rows": 50000,
+    "sha256": "03d037c4ef3f6507113313d14559f3ac11c27725b3df6adf327d9d81466defe7",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_mx_2020; day=48 (day 0 = 2020-02-27); learned from 4862 real records (2065 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_covid_mx_2020_day48.parquet",
+    "rows": 50000,
+    "sha256": "9d310d1d9fbcdb86178115c20d6808ac9420080f73645ed4255f0ad04013be43",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=covid_mx_2020; trained on 4862 of the 4862 real records entered up to day 48; epochs=300; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_covid_mx_2021_day18.parquet",
+    "rows": 50000,
+    "sha256": "22d7af8b5044888cd75fbcc45446fe68d1de329de060f434829ad992ad5bfa23",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_mx_2021; day=18 (day 0 = 2021-01-01); learned from 33830 real records (19487 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/ctgan/SYNTHETIC_ctgan_covid_mx_2021_day18.parquet",
+    "rows": 50000,
+    "sha256": "199b8afbed3ecae2cbfb1f2692091b17e1e26393a95bf1e3c222aa4595b6064d",
+    "provenance": "SYNTHETIC - CTGAN baseline; outbreak=covid_mx_2021; trained on 20000 of the 33830 real records entered up to day 18; epochs=300; seed=0. Not real patients."
+  }
+]

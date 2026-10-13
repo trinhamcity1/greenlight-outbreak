@@ -1,0 +1,14 @@
+# Vote-only test on three small line lists (Ebola Sierra Leone 2014, H7N9 China 2013, MERS Korea 2015), age and sex only.
+# Present-day Atlas: every Brazil and Mexico outbreak in full ('if this pathogen appeared today').
+# Run with OUTBREAK_LIB=data/processed/library_small.parquet. Settings as Exp. 5b/11; vote sharpness 0.01 (Brazil).
+name = "exp13b_vote_small_present"
+only = ["ebola_sl_2014", "h7n9_cn_2013", "mers_kr_2015"]
+present_day_atlas = true
+weeks = 26
+min_kin_rows = 200
+min_kin_deaths = 20
+max_fit_rows = 100000
+own_C = 0.3
+own_min_rows = 30
+day0_mode = "threshold"
+season_threshold = 20

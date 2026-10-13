@@ -1,0 +1,2178 @@
+{
+  "flu_2013": {
+    "day0": "2013-04-02",
+    "n_total": 6069,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "h1n1_2009": 21042
+    },
+    "hindsight_per_patient": {
+      "h1n1_2009": {
+        "profile": -6.5900665003222505,
+        "severity": -0.5120910326769254,
+        "total": -7.1021575329991755
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -5.725596390856342,
+      "severity": -0.38860910081003663,
+      "total": -6.114205491666379
+    },
+    "hindsight_best_kin": "h1n1_2009",
+    "novelty_gap": 0.9879520413327967
+  },
+  "othervirus_2013": {
+    "day0": "2013-04-10",
+    "n_total": 3012,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "h1n1_2009": 21042
+    },
+    "hindsight_per_patient": {
+      "h1n1_2009": {
+        "profile": -6.417975377695882,
+        "severity": -0.28910025154649216,
+        "total": -6.707075629242374
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.719786684392061,
+      "severity": -0.21530457917280077,
+      "total": -4.935091263564862
+    },
+    "hindsight_best_kin": "h1n1_2009",
+    "novelty_gap": 1.771984365677512
+  },
+  "othervirus_2014": {
+    "day0": "2014-03-25",
+    "n_total": 2138,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6064,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3051
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.365967158279324,
+        "severity": -0.17673720186484798,
+        "total": -5.542704360144172
+      },
+      "h1n1_2009": {
+        "profile": -6.0018346304384265,
+        "severity": -0.21944348214158696,
+        "total": -6.221278112580014
+      },
+      "othervirus_2013": {
+        "profile": -4.076654222305145,
+        "severity": -0.17194875878797605,
+        "total": -4.248602981093121
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.00156933056759,
+      "severity": -0.17898082792284134,
+      "total": -4.180550158490432
+    },
+    "hindsight_best_kin": "othervirus_2013",
+    "novelty_gap": 0.06805282260268974
+  },
+  "flu_2014": {
+    "day0": "2014-04-01",
+    "n_total": 1675,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6072,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3065
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.914196877323926,
+        "severity": -0.43421225440211386,
+        "total": -6.34840913172604
+      },
+      "h1n1_2009": {
+        "profile": -6.947279216890851,
+        "severity": -0.556179049897512,
+        "total": -7.503458266788363
+      },
+      "othervirus_2013": {
+        "profile": -6.539933183521016,
+        "severity": -0.44431539268678316,
+        "total": -6.984248576207799
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -5.8849687913814215,
+      "severity": -0.428035833825108,
+      "total": -6.3130046252065295
+    },
+    "hindsight_best_kin": "flu_2013",
+    "novelty_gap": 0.03540450651951055
+  },
+  "othervirus_2015": {
+    "day0": "2015-02-23",
+    "n_total": 2374,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6138,
+      "flu_2014": 1746,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3113,
+      "othervirus_2014": 2220
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.312617577394201,
+        "severity": -0.16737607473743865,
+        "total": -5.47999365213164
+      },
+      "flu_2014": {
+        "profile": -5.099021029413548,
+        "severity": -0.1650297994740451,
+        "total": -5.2640508288875925
+      },
+      "h1n1_2009": {
+        "profile": -5.997673289781369,
+        "severity": -0.22363726402252426,
+        "total": -6.221310553803893
+      },
+      "othervirus_2013": {
+        "profile": -3.8988747704121147,
+        "severity": -0.1543166253885823,
+        "total": -4.053191395800697
+      },
+      "othervirus_2014": {
+        "profile": -3.77230424061348,
+        "severity": -0.15776264797198122,
+        "total": -3.9300668885854613
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -3.7584662448977832,
+      "severity": -0.15763087535981388,
+      "total": -3.916097120257597
+    },
+    "hindsight_best_kin": "othervirus_2014",
+    "novelty_gap": 0.01396976832786434
+  },
+  "flu_2015": {
+    "day0": "2015-03-09",
+    "n_total": 1223,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6138,
+      "flu_2014": 1747,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3113,
+      "othervirus_2014": 2224
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -6.214865613949993,
+        "severity": -0.3917111279144119,
+        "total": -6.606576741864405
+      },
+      "flu_2014": {
+        "profile": -6.105094226551706,
+        "severity": -0.38901281673370236,
+        "total": -6.494107043285408
+      },
+      "h1n1_2009": {
+        "profile": -7.384595968004347,
+        "severity": -0.5056245095078169,
+        "total": -7.890220477512164
+      },
+      "othervirus_2013": {
+        "profile": -6.6528791109614005,
+        "severity": -0.40679217829302466,
+        "total": -7.0596712892544256
+      },
+      "othervirus_2014": {
+        "profile": -7.168067623629401,
+        "severity": -0.39929637545249785,
+        "total": -7.567363999081899
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.044055964624065,
+      "severity": -0.3946546755681197,
+      "total": -6.438710640192185
+    },
+    "hindsight_best_kin": "flu_2014",
+    "novelty_gap": 0.0553964030932228
+  },
+  "flu_2016": {
+    "day0": "2016-02-12",
+    "n_total": 11761,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6141,
+      "flu_2014": 1758,
+      "flu_2015": 1234,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3113,
+      "othervirus_2014": 2245,
+      "othervirus_2015": 2364
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.911138557319935,
+        "severity": -0.42586389580270445,
+        "total": -6.33700245312264
+      },
+      "flu_2014": {
+        "profile": -5.91813225909261,
+        "severity": -0.4272743419057789,
+        "total": -6.345406600998389
+      },
+      "flu_2015": {
+        "profile": -5.999896702478289,
+        "severity": -0.4314122401269117,
+        "total": -6.4313089426052015
+      },
+      "h1n1_2009": {
+        "profile": -6.960113958769753,
+        "severity": -0.5696676831767997,
+        "total": -7.529781641946553
+      },
+      "othervirus_2013": {
+        "profile": -6.634400255464406,
+        "severity": -0.4469956566365527,
+        "total": -7.081395912100959
+      },
+      "othervirus_2014": {
+        "profile": -7.245179875580296,
+        "severity": -0.4512791708189839,
+        "total": -7.69645904639928
+      },
+      "othervirus_2015": {
+        "profile": -7.531605879278037,
+        "severity": -0.45855501714599756,
+        "total": -7.990160896424035
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -5.8729614567656565,
+      "severity": -0.4222834714335437,
+      "total": -6.2952449281992005
+    },
+    "hindsight_best_kin": "flu_2013",
+    "novelty_gap": 0.041757524923439426
+  },
+  "othervirus_2016": {
+    "day0": "2016-03-07",
+    "n_total": 4551,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6144,
+      "flu_2014": 1758,
+      "flu_2015": 1236,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3119,
+      "othervirus_2014": 2245,
+      "othervirus_2015": 2394
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.593287131638047,
+        "severity": -0.20023464909651156,
+        "total": -5.793521780734559
+      },
+      "flu_2014": {
+        "profile": -5.406548307590724,
+        "severity": -0.19992717067058935,
+        "total": -5.606475478261314
+      },
+      "flu_2015": {
+        "profile": -5.231979246064918,
+        "severity": -0.2003523927434484,
+        "total": -5.432331638808366
+      },
+      "h1n1_2009": {
+        "profile": -6.450967656764921,
+        "severity": -0.2631920433443851,
+        "total": -6.714159700109306
+      },
+      "othervirus_2013": {
+        "profile": -4.570875251176171,
+        "severity": -0.19785315745928306,
+        "total": -4.768728408635455
+      },
+      "othervirus_2014": {
+        "profile": -4.57818356430892,
+        "severity": -0.19746549573989985,
+        "total": -4.77564906004882
+      },
+      "othervirus_2015": {
+        "profile": -4.625874067636547,
+        "severity": -0.1984934787553494,
+        "total": -4.824367546391896
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.539941452797272,
+      "severity": -0.19689028978566142,
+      "total": -4.736831742582933
+    },
+    "hindsight_best_kin": "othervirus_2013",
+    "novelty_gap": 0.03189666605252128
+  },
+  "flu_2017": {
+    "day0": "2017-02-01",
+    "n_total": 3215,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1761,
+      "flu_2015": 1255,
+      "flu_2016": 11749,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3119,
+      "othervirus_2014": 2247,
+      "othervirus_2015": 2416,
+      "othervirus_2016": 4555
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -6.4396429158288075,
+        "severity": -0.37207888377271264,
+        "total": -6.8117217996015205
+      },
+      "flu_2014": {
+        "profile": -6.3457480937863355,
+        "severity": -0.37975457232372073,
+        "total": -6.7255026661100565
+      },
+      "flu_2015": {
+        "profile": -6.254119164143714,
+        "severity": -0.37429736012021186,
+        "total": -6.628416524263926
+      },
+      "flu_2016": {
+        "profile": -6.36538552730569,
+        "severity": -0.37155244657916603,
+        "total": -6.736937973884856
+      },
+      "h1n1_2009": {
+        "profile": -7.75260779220565,
+        "severity": -0.49715742608013896,
+        "total": -8.24976521828579
+      },
+      "othervirus_2013": {
+        "profile": -7.058889527421149,
+        "severity": -0.38972599641070715,
+        "total": -7.448615523831856
+      },
+      "othervirus_2014": {
+        "profile": -7.615772178195031,
+        "severity": -0.3900564674306052,
+        "total": -8.005828645625636
+      },
+      "othervirus_2015": {
+        "profile": -7.875550475519162,
+        "severity": -0.39515637149041793,
+        "total": -8.27070684700958
+      },
+      "othervirus_2016": {
+        "profile": -7.158884022441245,
+        "severity": -0.3758241892634352,
+        "total": -7.53470821170468
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.201589420790962,
+      "severity": -0.37403356469811366,
+      "total": -6.575622985489076
+    },
+    "hindsight_best_kin": "flu_2015",
+    "novelty_gap": 0.052793538774849935
+  },
+  "othervirus_2017": {
+    "day0": "2017-02-09",
+    "n_total": 4642,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1761,
+      "flu_2015": 1255,
+      "flu_2016": 11759,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3119,
+      "othervirus_2014": 2247,
+      "othervirus_2015": 2416,
+      "othervirus_2016": 4568
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.564517474506014,
+        "severity": -0.20730932708523103,
+        "total": -5.771826801591246
+      },
+      "flu_2014": {
+        "profile": -5.358443465158289,
+        "severity": -0.20382409388930206,
+        "total": -5.562267559047591
+      },
+      "flu_2015": {
+        "profile": -5.151473966103502,
+        "severity": -0.20141753629929085,
+        "total": -5.352891502402793
+      },
+      "flu_2016": {
+        "profile": -5.471123356406789,
+        "severity": -0.20555066270914094,
+        "total": -5.6766740191159295
+      },
+      "h1n1_2009": {
+        "profile": -6.468004071691219,
+        "severity": -0.271446576385359,
+        "total": -6.739450648076578
+      },
+      "othervirus_2013": {
+        "profile": -4.284308108346083,
+        "severity": -0.19786403279918785,
+        "total": -4.482172141145272
+      },
+      "othervirus_2014": {
+        "profile": -4.219426260932389,
+        "severity": -0.19789431391746606,
+        "total": -4.417320574849855
+      },
+      "othervirus_2015": {
+        "profile": -4.222547855393106,
+        "severity": -0.19520581709933527,
+        "total": -4.4177536724924416
+      },
+      "othervirus_2016": {
+        "profile": -4.231552210670787,
+        "severity": -0.19685594445137067,
+        "total": -4.428408155122158
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.201520885778916,
+      "severity": -0.19728777237283723,
+      "total": -4.398808658151753
+    },
+    "hindsight_best_kin": "othervirus_2014",
+    "novelty_gap": 0.018511916698101594
+  },
+  "othervirus_2018": {
+    "day0": "2018-01-19",
+    "n_total": 8041,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1256,
+      "flu_2016": 11811,
+      "flu_2017": 3216,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3119,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2416,
+      "othervirus_2016": 4604,
+      "othervirus_2017": 4621
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.6149190687792885,
+        "severity": -0.1914315095011498,
+        "total": -5.806350578280438
+      },
+      "flu_2014": {
+        "profile": -5.430225336568208,
+        "severity": -0.18852417208996358,
+        "total": -5.618749508658172
+      },
+      "flu_2015": {
+        "profile": -5.249135766908613,
+        "severity": -0.1885940290717326,
+        "total": -5.437729795980346
+      },
+      "flu_2016": {
+        "profile": -5.519346429612524,
+        "severity": -0.18972164359206703,
+        "total": -5.709068073204591
+      },
+      "flu_2017": {
+        "profile": -5.561063730078137,
+        "severity": -0.18984435467424,
+        "total": -5.7509080847523775
+      },
+      "h1n1_2009": {
+        "profile": -6.686139956096286,
+        "severity": -0.2606682962691189,
+        "total": -6.946808252365406
+      },
+      "othervirus_2013": {
+        "profile": -4.418189251449823,
+        "severity": -0.1846592093565044,
+        "total": -4.602848460806327
+      },
+      "othervirus_2014": {
+        "profile": -4.393308391169123,
+        "severity": -0.18709950947659304,
+        "total": -4.580407900645716
+      },
+      "othervirus_2015": {
+        "profile": -4.409677172759106,
+        "severity": -0.18514401620153143,
+        "total": -4.594821188960637
+      },
+      "othervirus_2016": {
+        "profile": -4.378765186027613,
+        "severity": -0.18408269535448232,
+        "total": -4.562847881382096
+      },
+      "othervirus_2017": {
+        "profile": -4.354611203666413,
+        "severity": -0.18259574423052502,
+        "total": -4.537206947896938
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.338085725860509,
+      "severity": -0.18353184620771443,
+      "total": -4.521617572068223
+    },
+    "hindsight_best_kin": "othervirus_2017",
+    "novelty_gap": 0.015589375828715113
+  },
+  "flu_2018": {
+    "day0": "2018-03-01",
+    "n_total": 7756,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11814,
+      "flu_2017": 3235,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3119,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2416,
+      "othervirus_2016": 4604,
+      "othervirus_2017": 4650
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -6.107294142061433,
+        "severity": -0.401624036438539,
+        "total": -6.508918178499973
+      },
+      "flu_2014": {
+        "profile": -6.062002523121903,
+        "severity": -0.40181532890324884,
+        "total": -6.4638178520251515
+      },
+      "flu_2015": {
+        "profile": -6.047849456737558,
+        "severity": -0.4037015170605912,
+        "total": -6.45155097379815
+      },
+      "flu_2016": {
+        "profile": -6.050775343612021,
+        "severity": -0.3951855280470853,
+        "total": -6.445960871659107
+      },
+      "flu_2017": {
+        "profile": -6.052836983024643,
+        "severity": -0.39940311667438533,
+        "total": -6.452240099699028
+      },
+      "h1n1_2009": {
+        "profile": -7.216434806220604,
+        "severity": -0.5431990453537873,
+        "total": -7.759633851574391
+      },
+      "othervirus_2013": {
+        "profile": -6.63104336283031,
+        "severity": -0.4192075868470486,
+        "total": -7.050250949677358
+      },
+      "othervirus_2014": {
+        "profile": -7.1498058229385535,
+        "severity": -0.42508925193025643,
+        "total": -7.5748950748688095
+      },
+      "othervirus_2015": {
+        "profile": -7.395916927551998,
+        "severity": -0.4273643466906249,
+        "total": -7.823281274242622
+      },
+      "othervirus_2016": {
+        "profile": -6.761375112201791,
+        "severity": -0.399406568428856,
+        "total": -7.160781680630647
+      },
+      "othervirus_2017": {
+        "profile": -7.115984361058101,
+        "severity": -0.4157473269631912,
+        "total": -7.531731688021292
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.003242462905173,
+      "severity": -0.3961557518112027,
+      "total": -6.399398214716376
+    },
+    "hindsight_best_kin": "flu_2016",
+    "novelty_gap": 0.046562656942731095
+  },
+  "othervirus_2019": {
+    "day0": "2019-03-08",
+    "n_total": 4670,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11823,
+      "flu_2017": 3255,
+      "flu_2018": 7836,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 7992
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.205716820270068,
+        "severity": -0.19067622436810122,
+        "total": -5.3963930446381685
+      },
+      "flu_2014": {
+        "profile": -5.0438641617632864,
+        "severity": -0.18862559879781945,
+        "total": -5.232489760561106
+      },
+      "flu_2015": {
+        "profile": -4.853251426275358,
+        "severity": -0.186491050080397,
+        "total": -5.039742476355755
+      },
+      "flu_2016": {
+        "profile": -5.1105248792184685,
+        "severity": -0.18939658782210445,
+        "total": -5.299921467040573
+      },
+      "flu_2017": {
+        "profile": -5.1868882525126825,
+        "severity": -0.18652757635809641,
+        "total": -5.373415828870779
+      },
+      "flu_2018": {
+        "profile": -4.9114524605022964,
+        "severity": -0.18556109217699404,
+        "total": -5.09701355267929
+      },
+      "h1n1_2009": {
+        "profile": -5.863382735494325,
+        "severity": -0.25084409884472564,
+        "total": -6.114226834339051
+      },
+      "othervirus_2013": {
+        "profile": -3.972918409509086,
+        "severity": -0.1786243586003194,
+        "total": -4.1515427681094055
+      },
+      "othervirus_2014": {
+        "profile": -3.885396507961433,
+        "severity": -0.1820399616683245,
+        "total": -4.067436469629757
+      },
+      "othervirus_2015": {
+        "profile": -3.884727956481525,
+        "severity": -0.17756867750682173,
+        "total": -4.062296633988347
+      },
+      "othervirus_2016": {
+        "profile": -3.9076579202042088,
+        "severity": -0.18042121469926106,
+        "total": -4.08807913490347
+      },
+      "othervirus_2017": {
+        "profile": -3.878432871078103,
+        "severity": -0.17770517674593178,
+        "total": -4.056138047824035
+      },
+      "othervirus_2018": {
+        "profile": -3.8772654738000836,
+        "severity": -0.17821415713796204,
+        "total": -4.055479630938046
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -3.821064428752246,
+      "severity": -0.17927640146788731,
+      "total": -4.000340830220133
+    },
+    "hindsight_best_kin": "othervirus_2018",
+    "novelty_gap": 0.05513880071791277
+  },
+  "flu_2019": {
+    "day0": "2019-03-11",
+    "n_total": 4100,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11823,
+      "flu_2017": 3255,
+      "flu_2018": 7836,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 7995
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -5.876781943282186,
+        "severity": -0.3843985814439143,
+        "total": -6.2611805247261
+      },
+      "flu_2014": {
+        "profile": -5.855909424967147,
+        "severity": -0.381543851784385,
+        "total": -6.237453276751532
+      },
+      "flu_2015": {
+        "profile": -5.850021024934173,
+        "severity": -0.3841412916215397,
+        "total": -6.234162316555713
+      },
+      "flu_2016": {
+        "profile": -5.834541198773596,
+        "severity": -0.37807058297522284,
+        "total": -6.2126117817488185
+      },
+      "flu_2017": {
+        "profile": -5.85892810176373,
+        "severity": -0.38305094244554944,
+        "total": -6.241979044209279
+      },
+      "flu_2018": {
+        "profile": -5.798537746788677,
+        "severity": -0.37762255743939793,
+        "total": -6.176160304228075
+      },
+      "h1n1_2009": {
+        "profile": -6.830121941022498,
+        "severity": -0.47003682658265117,
+        "total": -7.30015876760515
+      },
+      "othervirus_2013": {
+        "profile": -6.439099157068431,
+        "severity": -0.40090286335885983,
+        "total": -6.84000202042729
+      },
+      "othervirus_2014": {
+        "profile": -6.974469574931743,
+        "severity": -0.3959669696768682,
+        "total": -7.370436544608611
+      },
+      "othervirus_2015": {
+        "profile": -7.221845775242752,
+        "severity": -0.4083001609043652,
+        "total": -7.630145936147117
+      },
+      "othervirus_2016": {
+        "profile": -6.587047326379681,
+        "severity": -0.37736995945233937,
+        "total": -6.96441728583202
+      },
+      "othervirus_2017": {
+        "profile": -6.947833976897284,
+        "severity": -0.39450589890317334,
+        "total": -7.342339875800457
+      },
+      "othervirus_2018": {
+        "profile": -6.835356180365076,
+        "severity": -0.38724705037735896,
+        "total": -7.222603230742434
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -5.761767075166689,
+      "severity": -0.37646883963548655,
+      "total": -6.138235914802175
+    },
+    "hindsight_best_kin": "flu_2018",
+    "novelty_gap": 0.03792438942589982
+  },
+  "othervirus_2020": {
+    "day0": "2020-01-02",
+    "n_total": 4620,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 3983,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4451
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -6.392714562818485,
+        "severity": -0.23099980345615279,
+        "total": -6.623714366274638
+      },
+      "flu_2014": {
+        "profile": -6.2358362847522235,
+        "severity": -0.2293747145560136,
+        "total": -6.465210999308237
+      },
+      "flu_2015": {
+        "profile": -6.142116884315198,
+        "severity": -0.22735152015966442,
+        "total": -6.369468404474862
+      },
+      "flu_2016": {
+        "profile": -6.31576281809876,
+        "severity": -0.22796860543177005,
+        "total": -6.54373142353053
+      },
+      "flu_2017": {
+        "profile": -6.266898629976788,
+        "severity": -0.23084929846182747,
+        "total": -6.497747928438616
+      },
+      "flu_2018": {
+        "profile": -6.139931890438174,
+        "severity": -0.22667092996315918,
+        "total": -6.366602820401333
+      },
+      "flu_2019": {
+        "profile": -6.230364109943809,
+        "severity": -0.2333674290773071,
+        "total": -6.463731539021117
+      },
+      "h1n1_2009": {
+        "profile": -8.064962084560868,
+        "severity": -0.34150244552766224,
+        "total": -8.406464530088531
+      },
+      "othervirus_2013": {
+        "profile": -5.901871536599154,
+        "severity": -0.22568186371731438,
+        "total": -6.127553400316469
+      },
+      "othervirus_2014": {
+        "profile": -6.150898642305259,
+        "severity": -0.23316773556674697,
+        "total": -6.384066377872006
+      },
+      "othervirus_2015": {
+        "profile": -6.253657880910114,
+        "severity": -0.22137526611324593,
+        "total": -6.47503314702336
+      },
+      "othervirus_2016": {
+        "profile": -5.969007783497094,
+        "severity": -0.2281631547651782,
+        "total": -6.197170938262272
+      },
+      "othervirus_2017": {
+        "profile": -6.059242440501457,
+        "severity": -0.22489572521003498,
+        "total": -6.284138165711492
+      },
+      "othervirus_2018": {
+        "profile": -5.9730484195511835,
+        "severity": -0.2204870130212418,
+        "total": -6.193535432572426
+      },
+      "othervirus_2019": {
+        "profile": -6.208193008201735,
+        "severity": -0.22564820327484286,
+        "total": -6.433841211476578
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -5.64812355501289,
+      "severity": -0.2204863537830503,
+      "total": -5.86860990879594
+    },
+    "hindsight_best_kin": "othervirus_2013",
+    "novelty_gap": 0.25894349152052865
+  },
+  "flu_2020": {
+    "day0": "2020-01-09",
+    "n_total": 2325,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4001,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4514
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -6.166312576781022,
+        "severity": -0.34341828031941596,
+        "total": -6.509730857100438
+      },
+      "flu_2014": {
+        "profile": -6.146255923998789,
+        "severity": -0.3441526139509517,
+        "total": -6.49040853794974
+      },
+      "flu_2015": {
+        "profile": -6.19182001239947,
+        "severity": -0.34633758174957197,
+        "total": -6.538157594149042
+      },
+      "flu_2016": {
+        "profile": -6.13562390097642,
+        "severity": -0.3394942526367019,
+        "total": -6.475118153613122
+      },
+      "flu_2017": {
+        "profile": -6.153248420799686,
+        "severity": -0.34120909364259705,
+        "total": -6.494457514442283
+      },
+      "flu_2018": {
+        "profile": -6.105772477356043,
+        "severity": -0.340212793310214,
+        "total": -6.445985270666257
+      },
+      "flu_2019": {
+        "profile": -6.082934830843041,
+        "severity": -0.3456467339796229,
+        "total": -6.4285815648226645
+      },
+      "h1n1_2009": {
+        "profile": -7.545621771678233,
+        "severity": -0.5031332490795529,
+        "total": -8.048755020757786
+      },
+      "othervirus_2013": {
+        "profile": -6.803171038842774,
+        "severity": -0.34132252945883124,
+        "total": -7.1444935683016055
+      },
+      "othervirus_2014": {
+        "profile": -7.41178977866561,
+        "severity": -0.35846056173823904,
+        "total": -7.770250340403849
+      },
+      "othervirus_2015": {
+        "profile": -7.667704389334676,
+        "severity": -0.3455102207091128,
+        "total": -8.01321461004379
+      },
+      "othervirus_2016": {
+        "profile": -6.990569407567806,
+        "severity": -0.3401290363478596,
+        "total": -7.330698443915666
+      },
+      "othervirus_2017": {
+        "profile": -7.345951731883497,
+        "severity": -0.3426157089671297,
+        "total": -7.688567440850627
+      },
+      "othervirus_2018": {
+        "profile": -7.190116657840552,
+        "severity": -0.336050171124325,
+        "total": -7.526166828964877
+      },
+      "othervirus_2019": {
+        "profile": -7.400556113298296,
+        "severity": -0.345106883265815,
+        "total": -7.745662996564111
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.0087730022668735,
+      "severity": -0.3410465622187086,
+      "total": -6.349819564485582
+    },
+    "hindsight_best_kin": "flu_2019",
+    "novelty_gap": 0.07876200033708258
+  },
+  "covid_2020": {
+    "day0": "2020-02-26",
+    "n_total": 645001,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4067,
+      "flu_2020": 268,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4630
+    },
+    "hindsight_per_patient": {
+      "flu_2013": {
+        "profile": -7.7976561337400785,
+        "severity": -0.6379495232321349,
+        "total": -8.435605656972214
+      },
+      "flu_2014": {
+        "profile": -7.517967659869186,
+        "severity": -0.641077275144651,
+        "total": -8.159044935013837
+      },
+      "flu_2015": {
+        "profile": -7.351193520765286,
+        "severity": -0.6426140917401907,
+        "total": -7.993807612505477
+      },
+      "flu_2016": {
+        "profile": -7.605551617028045,
+        "severity": -0.6260416571490609,
+        "total": -8.231593274177106
+      },
+      "flu_2017": {
+        "profile": -7.2927805271781745,
+        "severity": -0.629316221695862,
+        "total": -7.922096748874036
+      },
+      "flu_2018": {
+        "profile": -7.477369263304574,
+        "severity": -0.618050020992972,
+        "total": -8.095419284297545
+      },
+      "flu_2019": {
+        "profile": -7.5694743427663935,
+        "severity": -0.6542631910096147,
+        "total": -8.223737533776008
+      },
+      "flu_2020": {
+        "profile": -8.301984220708487,
+        "severity": -0.6357624920389593,
+        "total": -8.937746712747446
+      },
+      "h1n1_2009": {
+        "profile": -10.906207238572941,
+        "severity": -1.0430220914249049,
+        "total": -11.949229329997847
+      },
+      "othervirus_2013": {
+        "profile": -8.819834420180696,
+        "severity": -0.6022655701956416,
+        "total": -9.422099990376337
+      },
+      "othervirus_2014": {
+        "profile": -9.655154388828878,
+        "severity": -0.6589159857845376,
+        "total": -10.314070374613415
+      },
+      "othervirus_2015": {
+        "profile": -9.90590672015214,
+        "severity": -0.5867330894338747,
+        "total": -10.492639809586015
+      },
+      "othervirus_2016": {
+        "profile": -8.93352046761667,
+        "severity": -0.6165788325803725,
+        "total": -9.550099300197044
+      },
+      "othervirus_2017": {
+        "profile": -9.375189497979232,
+        "severity": -0.5977328146266139,
+        "total": -9.972922312605846
+      },
+      "othervirus_2018": {
+        "profile": -9.199002816059384,
+        "severity": -0.5887866733592432,
+        "total": -9.787789489418627
+      },
+      "othervirus_2019": {
+        "profile": -9.701379848561457,
+        "severity": -0.6049161276961282,
+        "total": -10.306295976257585
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.261466867063782,
+      "severity": -0.5572179787079675,
+      "total": -6.81868484577175
+    },
+    "hindsight_best_kin": "flu_2017",
+    "novelty_gap": 1.1034119031022867
+  },
+  "covid_2021": {
+    "day0": "2021-01-01",
+    "n_total": 1110565,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4087,
+      "flu_2020": 2213,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4294
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -6.08917315921321,
+        "severity": -0.5768320539573307,
+        "total": -6.666005213170541
+      },
+      "flu_2013": {
+        "profile": -7.436312340839423,
+        "severity": -0.6460322365934318,
+        "total": -8.082344577432854
+      },
+      "flu_2014": {
+        "profile": -7.20359333834331,
+        "severity": -0.6479424711020197,
+        "total": -7.8515358094453305
+      },
+      "flu_2015": {
+        "profile": -7.159604233478387,
+        "severity": -0.6499178324716562,
+        "total": -7.809522065950043
+      },
+      "flu_2016": {
+        "profile": -7.299401955754678,
+        "severity": -0.6334437009530116,
+        "total": -7.9328456567076895
+      },
+      "flu_2017": {
+        "profile": -7.155899512211706,
+        "severity": -0.6401297854379366,
+        "total": -7.796029297649643
+      },
+      "flu_2018": {
+        "profile": -7.2528845095524925,
+        "severity": -0.6274864138156873,
+        "total": -7.880370923368179
+      },
+      "flu_2019": {
+        "profile": -7.357486614044585,
+        "severity": -0.6560198798225438,
+        "total": -8.013506493867128
+      },
+      "flu_2020": {
+        "profile": -7.115645862148636,
+        "severity": -0.6016830297446856,
+        "total": -7.717328891893321
+      },
+      "h1n1_2009": {
+        "profile": -10.455632268248449,
+        "severity": -1.018111804664492,
+        "total": -11.473744072912941
+      },
+      "othervirus_2013": {
+        "profile": -8.406983119295418,
+        "severity": -0.6157052342403528,
+        "total": -9.022688353535772
+      },
+      "othervirus_2014": {
+        "profile": -9.27391217377516,
+        "severity": -0.6585613416692028,
+        "total": -9.932473515444363
+      },
+      "othervirus_2015": {
+        "profile": -9.502733923243813,
+        "severity": -0.5995734963825661,
+        "total": -10.10230741962638
+      },
+      "othervirus_2016": {
+        "profile": -8.619584187870373,
+        "severity": -0.6205610077336343,
+        "total": -9.240145195604008
+      },
+      "othervirus_2017": {
+        "profile": -9.031276160903204,
+        "severity": -0.6043365982918425,
+        "total": -9.635612759195046
+      },
+      "othervirus_2018": {
+        "profile": -8.840065216625693,
+        "severity": -0.599014048345072,
+        "total": -9.439079264970765
+      },
+      "othervirus_2019": {
+        "profile": -9.370796483631858,
+        "severity": -0.6137403139389783,
+        "total": -9.984536797570836
+      },
+      "othervirus_2020": {
+        "profile": -7.490873546172,
+        "severity": -0.5976381790828589,
+        "total": -8.08851172525486
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.027570760162097,
+      "severity": -0.573830506047864,
+      "total": -6.601401266209961
+    },
+    "hindsight_best_kin": "covid_2020",
+    "novelty_gap": 0.06460394696058014
+  },
+  "othervirus_2021": {
+    "day0": "2021-01-08",
+    "n_total": 19619,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4087,
+      "flu_2020": 2217,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4378
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -8.504364741415326,
+        "severity": -0.11168075067145754,
+        "total": -8.616045492086783
+      },
+      "flu_2013": {
+        "profile": -6.291777286653265,
+        "severity": -0.11508140413271778,
+        "total": -6.406858690785983
+      },
+      "flu_2014": {
+        "profile": -6.075561208419814,
+        "severity": -0.11203463314961136,
+        "total": -6.187595841569426
+      },
+      "flu_2015": {
+        "profile": -5.927155285113609,
+        "severity": -0.11203158089656952,
+        "total": -6.039186866010179
+      },
+      "flu_2016": {
+        "profile": -6.195887841885782,
+        "severity": -0.11364799047690106,
+        "total": -6.309535832362683
+      },
+      "flu_2017": {
+        "profile": -6.178485416233688,
+        "severity": -0.11375615996679171,
+        "total": -6.292241576200479
+      },
+      "flu_2018": {
+        "profile": -5.95714033664802,
+        "severity": -0.11229532678855238,
+        "total": -6.069435663436572
+      },
+      "flu_2019": {
+        "profile": -6.0640839595513345,
+        "severity": -0.11265133858433048,
+        "total": -6.176735298135665
+      },
+      "flu_2020": {
+        "profile": -5.959172671722336,
+        "severity": -0.11096931202747144,
+        "total": -6.070141983749807
+      },
+      "h1n1_2009": {
+        "profile": -8.365397992273058,
+        "severity": -0.15131817081198182,
+        "total": -8.51671616308504
+      },
+      "othervirus_2013": {
+        "profile": -4.975550112294501,
+        "severity": -0.10779592345298876,
+        "total": -5.08334603574749
+      },
+      "othervirus_2014": {
+        "profile": -5.005664359962694,
+        "severity": -0.10979170724529842,
+        "total": -5.115456067207992
+      },
+      "othervirus_2015": {
+        "profile": -4.98897204715598,
+        "severity": -0.10715418215222873,
+        "total": -5.096126229308209
+      },
+      "othervirus_2016": {
+        "profile": -4.973949814787656,
+        "severity": -0.10923826429382533,
+        "total": -5.083188079081482
+      },
+      "othervirus_2017": {
+        "profile": -4.872055661385911,
+        "severity": -0.10731464584262569,
+        "total": -4.979370307228536
+      },
+      "othervirus_2018": {
+        "profile": -4.780864071324309,
+        "severity": -0.10688679337744729,
+        "total": -4.887750864701757
+      },
+      "othervirus_2019": {
+        "profile": -5.011610693130968,
+        "severity": -0.10746428271326802,
+        "total": -5.119074975844236
+      },
+      "othervirus_2020": {
+        "profile": -4.822500503222281,
+        "severity": -0.1096428658170048,
+        "total": -4.932143369039286
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.5000985304151095,
+      "severity": -0.10738847721947498,
+      "total": -4.607487007634584
+    },
+    "hindsight_best_kin": "othervirus_2018",
+    "novelty_gap": 0.2802638570671725
+  },
+  "flu_2021": {
+    "day0": "2021-04-07",
+    "n_total": 9885,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "covid_2021": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4087,
+      "flu_2020": 2274,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4578,
+      "othervirus_2021": 3086
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -7.067950138384122,
+        "severity": -0.3870162441809064,
+        "total": -7.454966382565028
+      },
+      "covid_2021": {
+        "profile": -7.223234753247783,
+        "severity": -0.3876085389036133,
+        "total": -7.610843292151396
+      },
+      "flu_2013": {
+        "profile": -7.539838575102871,
+        "severity": -0.39930780226519524,
+        "total": -7.939146377368066
+      },
+      "flu_2014": {
+        "profile": -7.2914314416940424,
+        "severity": -0.3933468200584131,
+        "total": -7.684778261752456
+      },
+      "flu_2015": {
+        "profile": -7.120157436083074,
+        "severity": -0.39604112488933635,
+        "total": -7.516198560972411
+      },
+      "flu_2016": {
+        "profile": -7.424025190819528,
+        "severity": -0.38971451495876613,
+        "total": -7.813739705778294
+      },
+      "flu_2017": {
+        "profile": -6.9915381837495705,
+        "severity": -0.3948056385650953,
+        "total": -7.386343822314666
+      },
+      "flu_2018": {
+        "profile": -7.196748382645818,
+        "severity": -0.38742352404629155,
+        "total": -7.584171906692109
+      },
+      "flu_2019": {
+        "profile": -7.302208370766598,
+        "severity": -0.4038515707223862,
+        "total": -7.706059941488984
+      },
+      "flu_2020": {
+        "profile": -7.050027921936801,
+        "severity": -0.3816678590139864,
+        "total": -7.431695780950787
+      },
+      "h1n1_2009": {
+        "profile": -10.349658277206638,
+        "severity": -0.6322421348615038,
+        "total": -10.981900412068141
+      },
+      "othervirus_2013": {
+        "profile": -8.168069192927543,
+        "severity": -0.39285837367037196,
+        "total": -8.560927566597915
+      },
+      "othervirus_2014": {
+        "profile": -8.850974072460293,
+        "severity": -0.4111009069213403,
+        "total": -9.262074979381634
+      },
+      "othervirus_2015": {
+        "profile": -9.069142920092984,
+        "severity": -0.3867344098906852,
+        "total": -9.45587732998367
+      },
+      "othervirus_2016": {
+        "profile": -8.237278972691577,
+        "severity": -0.39073606552297807,
+        "total": -8.628015038214555
+      },
+      "othervirus_2017": {
+        "profile": -8.600944748026505,
+        "severity": -0.3875992867195901,
+        "total": -8.988544034746095
+      },
+      "othervirus_2018": {
+        "profile": -8.450429236376111,
+        "severity": -0.3812869423676204,
+        "total": -8.831716178743731
+      },
+      "othervirus_2019": {
+        "profile": -8.88197658079542,
+        "severity": -0.3919720165528141,
+        "total": -9.273948597348234
+      },
+      "othervirus_2020": {
+        "profile": -7.299543294590632,
+        "severity": -0.38477173918025326,
+        "total": -7.684315033770885
+      },
+      "othervirus_2021": {
+        "profile": -8.627154998809454,
+        "severity": -0.400065798746974,
+        "total": -9.027220797556428
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.521356390707564,
+      "severity": -0.3785664761481248,
+      "total": -6.899922866855689
+    },
+    "hindsight_best_kin": "flu_2017",
+    "novelty_gap": 0.48642095545897757
+  },
+  "covid_2022": {
+    "day0": "2022-01-01",
+    "n_total": 214954,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "covid_2021": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4088,
+      "flu_2020": 2296,
+      "flu_2021": 3920,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4604,
+      "othervirus_2021": 17973
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -6.93368791654747,
+        "severity": -0.5387205361787467,
+        "total": -7.472408452726216
+      },
+      "covid_2021": {
+        "profile": -7.107056896028774,
+        "severity": -0.5357098941987601,
+        "total": -7.642766790227534
+      },
+      "flu_2013": {
+        "profile": -8.77175350518132,
+        "severity": -0.5620524996858715,
+        "total": -9.33380600486719
+      },
+      "flu_2014": {
+        "profile": -8.357609838875321,
+        "severity": -0.5602019578389517,
+        "total": -8.917811796714274
+      },
+      "flu_2015": {
+        "profile": -8.07489940646972,
+        "severity": -0.5665561739820059,
+        "total": -8.641455580451726
+      },
+      "flu_2016": {
+        "profile": -8.584441485466165,
+        "severity": -0.5514303004784379,
+        "total": -9.135871785944603
+      },
+      "flu_2017": {
+        "profile": -7.936879585443507,
+        "severity": -0.5611215806362961,
+        "total": -8.498001166079803
+      },
+      "flu_2018": {
+        "profile": -8.264425208754488,
+        "severity": -0.5459903431470685,
+        "total": -8.810415551901556
+      },
+      "flu_2019": {
+        "profile": -8.465813087992077,
+        "severity": -0.5815970217614305,
+        "total": -9.047410109753507
+      },
+      "flu_2020": {
+        "profile": -8.008769197636644,
+        "severity": -0.5388073939315076,
+        "total": -8.547576591568152
+      },
+      "flu_2021": {
+        "profile": -6.974376466181965,
+        "severity": -0.5352731593360096,
+        "total": -7.509649625517975
+      },
+      "h1n1_2009": {
+        "profile": -12.827689653628578,
+        "severity": -0.9681731084554014,
+        "total": -13.79586276208398
+      },
+      "othervirus_2013": {
+        "profile": -9.46842041193504,
+        "severity": -0.5550831876031492,
+        "total": -10.02350359953819
+      },
+      "othervirus_2014": {
+        "profile": -10.263165481597172,
+        "severity": -0.5952085635735099,
+        "total": -10.858374045170681
+      },
+      "othervirus_2015": {
+        "profile": -10.45068026240621,
+        "severity": -0.5446401705005989,
+        "total": -10.99532043290681
+      },
+      "othervirus_2016": {
+        "profile": -9.492700905804401,
+        "severity": -0.5520115369760747,
+        "total": -10.044712442780476
+      },
+      "othervirus_2017": {
+        "profile": -9.845546992785756,
+        "severity": -0.552261175064381,
+        "total": -10.397808167850137
+      },
+      "othervirus_2018": {
+        "profile": -9.663440037478567,
+        "severity": -0.5375851346986024,
+        "total": -10.20102517217717
+      },
+      "othervirus_2019": {
+        "profile": -10.332235510101945,
+        "severity": -0.5570217297002106,
+        "total": -10.889257239802156
+      },
+      "othervirus_2020": {
+        "profile": -8.150396516004303,
+        "severity": -0.541848714650602,
+        "total": -8.692245230654905
+      },
+      "othervirus_2021": {
+        "profile": -9.441533874277559,
+        "severity": -0.5402781956344859,
+        "total": -9.981812069912044
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.610676739784081,
+      "severity": -0.526536248454156,
+      "total": -7.137212988238237
+    },
+    "hindsight_best_kin": "covid_2020",
+    "novelty_gap": 0.3351954644879793
+  },
+  "flu_2022": {
+    "day0": "2022-01-01",
+    "n_total": 10825,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "covid_2021": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4088,
+      "flu_2020": 2296,
+      "flu_2021": 3920,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4604,
+      "othervirus_2021": 17973
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -7.506049947786503,
+        "severity": -0.32640066775266785,
+        "total": -7.83245061553917
+      },
+      "covid_2021": {
+        "profile": -7.687992810558242,
+        "severity": -0.32271674222122926,
+        "total": -8.010709552779472
+      },
+      "flu_2013": {
+        "profile": -7.406275805312266,
+        "severity": -0.33024392408139286,
+        "total": -7.736519729393659
+      },
+      "flu_2014": {
+        "profile": -7.205520688778215,
+        "severity": -0.32630437592602596,
+        "total": -7.531825064704241
+      },
+      "flu_2015": {
+        "profile": -7.04054650981835,
+        "severity": -0.32797516700533696,
+        "total": -7.368521676823687
+      },
+      "flu_2016": {
+        "profile": -7.280951159123887,
+        "severity": -0.3238660057006762,
+        "total": -7.6048171648245635
+      },
+      "flu_2017": {
+        "profile": -6.910180293922175,
+        "severity": -0.3289880314190183,
+        "total": -7.239168325341193
+      },
+      "flu_2018": {
+        "profile": -7.046489209626675,
+        "severity": -0.3208862636229449,
+        "total": -7.36737547324962
+      },
+      "flu_2019": {
+        "profile": -7.169960314981289,
+        "severity": -0.33319818191672845,
+        "total": -7.503158496898017
+      },
+      "flu_2020": {
+        "profile": -6.911109001994811,
+        "severity": -0.32050653295267595,
+        "total": -7.231615534947487
+      },
+      "flu_2021": {
+        "profile": -6.557730255627465,
+        "severity": -0.3196067048226377,
+        "total": -6.877336960450103
+      },
+      "h1n1_2009": {
+        "profile": -10.083658864806726,
+        "severity": -0.5045109188742527,
+        "total": -10.588169783680978
+      },
+      "othervirus_2013": {
+        "profile": -7.7836762189122295,
+        "severity": -0.32720660814664154,
+        "total": -8.110882827058871
+      },
+      "othervirus_2014": {
+        "profile": -8.34463880577305,
+        "severity": -0.3418919226571144,
+        "total": -8.686530728430164
+      },
+      "othervirus_2015": {
+        "profile": -8.54272989856475,
+        "severity": -0.32315381985856867,
+        "total": -8.865883718423317
+      },
+      "othervirus_2016": {
+        "profile": -7.84196512188078,
+        "severity": -0.3236773252091212,
+        "total": -8.165642447089901
+      },
+      "othervirus_2017": {
+        "profile": -8.119980863679453,
+        "severity": -0.3263220322208238,
+        "total": -8.446302895900278
+      },
+      "othervirus_2018": {
+        "profile": -7.962728562259084,
+        "severity": -0.3192830265754942,
+        "total": -8.282011588834578
+      },
+      "othervirus_2019": {
+        "profile": -8.361776563736813,
+        "severity": -0.32931728131644544,
+        "total": -8.691093845053258
+      },
+      "othervirus_2020": {
+        "profile": -6.9759190152078725,
+        "severity": -0.322786739821602,
+        "total": -7.2987057550294745
+      },
+      "othervirus_2021": {
+        "profile": -7.938389604544628,
+        "severity": -0.31986968027971047,
+        "total": -8.258259284824337
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -6.485383834026056,
+      "severity": -0.3167353173307157,
+      "total": -6.802119151356772
+    },
+    "hindsight_best_kin": "flu_2021",
+    "novelty_gap": 0.07521780909333131
+  },
+  "othervirus_2022": {
+    "day0": "2022-01-02",
+    "n_total": 31050,
+    "fields": [
+      "FEBRE",
+      "TOSSE",
+      "GARGANTA",
+      "DISPNEIA",
+      "CARDIOPATI",
+      "PNEUMOPATI",
+      "RENAL",
+      "IMUNODEPRE",
+      "METABOLIC"
+    ],
+    "kin": {
+      "covid_2020": 100000,
+      "covid_2021": 100000,
+      "flu_2013": 6146,
+      "flu_2014": 1762,
+      "flu_2015": 1257,
+      "flu_2016": 11824,
+      "flu_2017": 3255,
+      "flu_2018": 7856,
+      "flu_2019": 4088,
+      "flu_2020": 2296,
+      "flu_2021": 4007,
+      "h1n1_2009": 21042,
+      "othervirus_2013": 3120,
+      "othervirus_2014": 2249,
+      "othervirus_2015": 2418,
+      "othervirus_2016": 4607,
+      "othervirus_2017": 4689,
+      "othervirus_2018": 8071,
+      "othervirus_2019": 4666,
+      "othervirus_2020": 4604,
+      "othervirus_2021": 17992
+    },
+    "hindsight_per_patient": {
+      "covid_2020": {
+        "profile": -8.597818652606241,
+        "severity": -0.10183760523751216,
+        "total": -8.699656257843753
+      },
+      "covid_2021": {
+        "profile": -8.678534544888022,
+        "severity": -0.1010180251142557,
+        "total": -8.779552570002277
+      },
+      "flu_2013": {
+        "profile": -6.106496767508309,
+        "severity": -0.10227885213589018,
+        "total": -6.208775619644199
+      },
+      "flu_2014": {
+        "profile": -5.906135416018623,
+        "severity": -0.10057944224947384,
+        "total": -6.006714858268097
+      },
+      "flu_2015": {
+        "profile": -5.756379843359697,
+        "severity": -0.10003302386832184,
+        "total": -5.856412867228019
+      },
+      "flu_2016": {
+        "profile": -5.996828530036474,
+        "severity": -0.10133884635685622,
+        "total": -6.09816737639333
+      },
+      "flu_2017": {
+        "profile": -6.001272126675914,
+        "severity": -0.10138984833369724,
+        "total": -6.102661975009612
+      },
+      "flu_2018": {
+        "profile": -5.759802354401823,
+        "severity": -0.10013597029061361,
+        "total": -5.859938324692437
+      },
+      "flu_2019": {
+        "profile": -5.848656778602138,
+        "severity": -0.1009283111854061,
+        "total": -5.949585089787544
+      },
+      "flu_2020": {
+        "profile": -5.7740159213354225,
+        "severity": -0.09959616610081319,
+        "total": -5.873612087436236
+      },
+      "flu_2021": {
+        "profile": -5.981505108553772,
+        "severity": -0.09860318249380011,
+        "total": -6.080108291047572
+      },
+      "h1n1_2009": {
+        "profile": -7.972224824226704,
+        "severity": -0.135708218758499,
+        "total": -8.107933042985204
+      },
+      "othervirus_2013": {
+        "profile": -4.7715302897964,
+        "severity": -0.09778173505236769,
+        "total": -4.869312024848767
+      },
+      "othervirus_2014": {
+        "profile": -4.754405802715681,
+        "severity": -0.0988710763099681,
+        "total": -4.853276879025649
+      },
+      "othervirus_2015": {
+        "profile": -4.7310841943051,
+        "severity": -0.09698571891568195,
+        "total": -4.828069913220782
+      },
+      "othervirus_2016": {
+        "profile": -4.743340731351682,
+        "severity": -0.09846513865129061,
+        "total": -4.841805870002973
+      },
+      "othervirus_2017": {
+        "profile": -4.6371235152341175,
+        "severity": -0.09728100363184458,
+        "total": -4.734404518865962
+      },
+      "othervirus_2018": {
+        "profile": -4.551130016464023,
+        "severity": -0.0969656612422236,
+        "total": -4.648095677706246
+      },
+      "othervirus_2019": {
+        "profile": -4.719793368602191,
+        "severity": -0.0974953702304839,
+        "total": -4.817288738832675
+      },
+      "othervirus_2020": {
+        "profile": -4.6602859966561745,
+        "severity": -0.09843392247714233,
+        "total": -4.758719919133317
+      },
+      "othervirus_2021": {
+        "profile": -4.32427369666553,
+        "severity": -0.09676950128834248,
+        "total": -4.421043197953873
+      }
+    },
+    "own_cv_per_patient": {
+      "profile": -4.303239777643965,
+      "severity": -0.09683941726933296,
+      "total": -4.400079194913298
+    },
+    "hindsight_best_kin": "othervirus_2021",
+    "novelty_gap": 0.020964003040575108
+  }
+}

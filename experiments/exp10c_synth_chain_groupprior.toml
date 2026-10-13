@@ -1,0 +1,9 @@
+# Exp. 10 rerun on the OS state with the Kinship Vote starting equal per pathogen group (Exp. 5c / 8c).
+name = "exp10c_synth_chain_groupprior"
+os_run = "exp08c_os_replay_groupprior"
+kinship_analysis = "exp05c_kinship_groupprior"
+vote_prior = "group"
+n_rows = 50000
+seed = 0
+profile_model = "chain"
+ctgan = false

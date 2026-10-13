@@ -1,0 +1,84 @@
+{
+  "exp13_vote_small": {
+    "h7n9_cn_2013": {
+      "hindsight_best": "h1n1_2009",
+      "novelty_gap": 0.9138982235825841,
+      "final_week": {
+        "fob": "h7n9_cn_2013",
+        "week": 22,
+        "patients": 74,
+        "deaths": 30,
+        "stranger": 0.655,
+        "groups": "flu 100%",
+        "top_kin": "h1n1_2009 100%"
+      }
+    },
+    "ebola_sl_2014": {
+      "hindsight_best": "flu_2013",
+      "novelty_gap": 0.22361090994997346,
+      "final_week": {
+        "fob": "ebola_sl_2014",
+        "week": 6,
+        "patients": 83,
+        "deaths": 62,
+        "stranger": 0.356,
+        "groups": "flu 81%, othervirus 19%",
+        "top_kin": "flu_2013 42%"
+      }
+    },
+    "mers_kr_2015": {
+      "hindsight_best": "flu_2014",
+      "novelty_gap": 0.44929849417281176,
+      "final_week": {
+        "fob": "mers_kr_2015",
+        "week": 4,
+        "patients": 162,
+        "deaths": 19,
+        "stranger": 0.325,
+        "groups": "flu 87%, othervirus 13%",
+        "top_kin": "flu_2014 29%"
+      }
+    }
+  },
+  "exp13b_vote_small_present": {
+    "h7n9_cn_2013": {
+      "hindsight_best": "covid_mx_2021",
+      "novelty_gap": -0.08076944139137643,
+      "final_week": {
+        "fob": "h7n9_cn_2013",
+        "week": 22,
+        "patients": 74,
+        "deaths": 30,
+        "stranger": 0.047,
+        "groups": "covid 46%, flu 38%, othervirus 16%",
+        "top_kin": "covid_mx_2021 9%"
+      }
+    },
+    "ebola_sl_2014": {
+      "hindsight_best": "flu_2013",
+      "novelty_gap": 0.2249271507331061,
+      "final_week": {
+        "fob": "ebola_sl_2014",
+        "week": 6,
+        "patients": 83,
+        "deaths": 62,
+        "stranger": 0.101,
+        "groups": "covid 44%, flu 42%, othervirus 14%",
+        "top_kin": "covid_mx_2021 10%"
+      }
+    },
+    "mers_kr_2015": {
+      "hindsight_best": "covid_2021",
+      "novelty_gap": -0.04627081471402139,
+      "final_week": {
+        "fob": "mers_kr_2015",
+        "week": 4,
+        "patients": 162,
+        "deaths": 19,
+        "stranger": 0.054,
+        "groups": "covid 66%, flu 31%, othervirus 4%",
+        "top_kin": "covid_2021 15%"
+      }
+    }
+  }
+}

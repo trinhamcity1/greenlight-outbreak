@@ -1,0 +1,64 @@
+{
+  "fixed_candidates_mean_gap": {
+    "always kin": 0.005590264584177399,
+    "always consensus": 0.013096893002968162,
+    "always own": 0.09363542733569954,
+    "always kin_age": 0.024980028474625837,
+    "always age_trend": 0.06515962027972332
+  },
+  "rule_chosen": {
+    "flu_2013": "('kin', 100, 'all')",
+    "othervirus_2013": "('kin', 50, 'kin|kin_age|age')",
+    "othervirus_2014": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2014": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2015": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2015": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2016": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2016": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2017": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2017": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2018": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2018": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2019": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2019": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2020": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2020": "('kin', 100, 'kin|kin_age|age')",
+    "covid_2020": "('kin', 100, 'kin|kin_age|age')",
+    "covid_2021": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2021": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2021": "('kin', 100, 'kin|kin_age|age')",
+    "covid_2022": "('kin', 100, 'kin|kin_age|age')",
+    "flu_2022": "('kin', 100, 'kin|kin_age|age')",
+    "othervirus_2022": "('kin', 100, 'kin|kin_age|age')"
+  },
+  "mean_gap_final": 0.00672846736107208,
+  "os_at_least_age_only_by_day": {
+    "0": "17/23",
+    "14": "20/23",
+    "28": "22/23",
+    "56": "23/23",
+    "90": "23/23"
+  },
+  "plateau_earlier_same_later_vs_real": [
+    21,
+    2,
+    0
+  ],
+  "outbreaks_ever_below_age": 6,
+  "green_light": {
+    "rules": [
+      [
+        10,
+        0.98
+      ],
+      [
+        10,
+        0.99
+      ]
+    ],
+    "greens": 22,
+    "false_greens": 1,
+    "never_green": 1,
+    "median_green_day": 37.0
+  }
+}

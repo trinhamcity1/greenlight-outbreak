@@ -1,0 +1,405 @@
+{
+  "config": {
+    "name": "exp04_prior_probe",
+    "target": [
+      "covid_2020",
+      "covid_2021",
+      "covid_2022"
+    ],
+    "past": [
+      "h1n1_2009",
+      "flu_2013",
+      "flu_2014",
+      "flu_2015",
+      "flu_2016",
+      "flu_2017",
+      "flu_2018",
+      "flu_2019",
+      "othervirus_2013",
+      "othervirus_2014",
+      "othervirus_2015",
+      "othervirus_2016",
+      "othervirus_2017",
+      "othervirus_2018",
+      "othervirus_2019"
+    ],
+    "day0": "2020-02-26",
+    "max_day": 45,
+    "test_from": "2020-07-01",
+    "test_to": "2020-07-31",
+    "min_class": 10
+  },
+  "past_n": 93643,
+  "test_n": 93635,
+  "past_only_auc": 0.7269375409804407,
+  "days": [
+    {
+      "day": 0,
+      "n": 1,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 1,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 2,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 3,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 4,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 5,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 6,
+      "n": 2,
+      "deaths": 0,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 7,
+      "n": 4,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 8,
+      "n": 5,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 9,
+      "n": 7,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 10,
+      "n": 7,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 11,
+      "n": 7,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 12,
+      "n": 8,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 13,
+      "n": 8,
+      "deaths": 1,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 14,
+      "n": 9,
+      "deaths": 2,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 15,
+      "n": 12,
+      "deaths": 3,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 16,
+      "n": 15,
+      "deaths": 5,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 17,
+      "n": 15,
+      "deaths": 5,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 18,
+      "n": 15,
+      "deaths": 5,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 19,
+      "n": 25,
+      "deaths": 6,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 20,
+      "n": 39,
+      "deaths": 8,
+      "past_only": 0.7269375409804407,
+      "new_only": null,
+      "past_prior": null
+    },
+    {
+      "day": 21,
+      "n": 88,
+      "deaths": 35,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7075384647665701,
+      "past_prior": 0.7155810606250828
+    },
+    {
+      "day": 22,
+      "n": 133,
+      "deaths": 51,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.6899663912741765,
+      "past_prior": 0.6986843152950171
+    },
+    {
+      "day": 23,
+      "n": 250,
+      "deaths": 96,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7063266043047801,
+      "past_prior": 0.7112857236678994
+    },
+    {
+      "day": 24,
+      "n": 306,
+      "deaths": 114,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7171435323629525,
+      "past_prior": 0.7204952099230212
+    },
+    {
+      "day": 25,
+      "n": 347,
+      "deaths": 128,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7142039142992233,
+      "past_prior": 0.7177370714989446
+    },
+    {
+      "day": 26,
+      "n": 553,
+      "deaths": 201,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7384122697571278,
+      "past_prior": 0.7420668370541761
+    },
+    {
+      "day": 27,
+      "n": 749,
+      "deaths": 276,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7363757108027144,
+      "past_prior": 0.7396690514383402
+    },
+    {
+      "day": 28,
+      "n": 1084,
+      "deaths": 363,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7402379694988096,
+      "past_prior": 0.7424752725021
+    },
+    {
+      "day": 29,
+      "n": 1478,
+      "deaths": 485,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7515174492466123,
+      "past_prior": 0.7532794735548766
+    },
+    {
+      "day": 30,
+      "n": 1931,
+      "deaths": 628,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7499217242879778,
+      "past_prior": 0.7510460296222654
+    },
+    {
+      "day": 31,
+      "n": 2052,
+      "deaths": 666,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7493520060265703,
+      "past_prior": 0.750099623865971
+    },
+    {
+      "day": 32,
+      "n": 2184,
+      "deaths": 706,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7492014726045948,
+      "past_prior": 0.7497597847419888
+    },
+    {
+      "day": 33,
+      "n": 2824,
+      "deaths": 865,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7558282933256495,
+      "past_prior": 0.7569868676678948
+    },
+    {
+      "day": 34,
+      "n": 3538,
+      "deaths": 1045,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7555940265092551,
+      "past_prior": 0.7569049392649175
+    },
+    {
+      "day": 35,
+      "n": 4248,
+      "deaths": 1272,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7568519894394713,
+      "past_prior": 0.7576417077196601
+    },
+    {
+      "day": 36,
+      "n": 4957,
+      "deaths": 1462,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7586620426826577,
+      "past_prior": 0.7589867097001995
+    },
+    {
+      "day": 37,
+      "n": 5638,
+      "deaths": 1648,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7572119425308482,
+      "past_prior": 0.7578035288594379
+    },
+    {
+      "day": 38,
+      "n": 5835,
+      "deaths": 1718,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7570222138399149,
+      "past_prior": 0.7576909074183709
+    },
+    {
+      "day": 39,
+      "n": 5955,
+      "deaths": 1752,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7564369096896709,
+      "past_prior": 0.7569769215461681
+    },
+    {
+      "day": 40,
+      "n": 6882,
+      "deaths": 2023,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7551383278028581,
+      "past_prior": 0.7554099015265207
+    },
+    {
+      "day": 41,
+      "n": 7670,
+      "deaths": 2262,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.758685979406084,
+      "past_prior": 0.7589295192445343
+    },
+    {
+      "day": 42,
+      "n": 8425,
+      "deaths": 2508,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7578949599362585,
+      "past_prior": 0.7578966994590391
+    },
+    {
+      "day": 43,
+      "n": 9091,
+      "deaths": 2735,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.75614684337092,
+      "past_prior": 0.7566753079366035
+    },
+    {
+      "day": 44,
+      "n": 9333,
+      "deaths": 2822,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7561784161441414,
+      "past_prior": 0.756207229515598
+    },
+    {
+      "day": 45,
+      "n": 9575,
+      "deaths": 2924,
+      "past_only": 0.7269375409804407,
+      "new_only": 0.7555293409148579,
+      "past_prior": 0.7559307338784634
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+name = "exp04_prior_probe"
+target = ["covid_2020", "covid_2021", "covid_2022"]
+past = ["h1n1_2009", "flu_2013", "flu_2014", "flu_2015", "flu_2016", "flu_2017", "flu_2018", "flu_2019",
+        "othervirus_2013", "othervirus_2014", "othervirus_2015", "othervirus_2016", "othervirus_2017",
+        "othervirus_2018", "othervirus_2019"]
+day0 = "2020-02-26"
+max_day = 45
+test_from = "2020-07-01"
+test_to = "2020-07-31"
+min_class = 10

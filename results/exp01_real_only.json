@@ -1,0 +1,155 @@
+{
+  "config": {
+    "name": "exp01_real_only",
+    "n_values": [
+      100,
+      300,
+      1000,
+      3000
+    ],
+    "test_days": 30,
+    "models": [
+      "logreg",
+      "gbm"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bootstrap": 1000,
+    "reference_until": "2020-12-31"
+  },
+  "cohort_rows": 1970604,
+  "cutoff_entry_date": "2020-03-31",
+  "test": {
+    "n": 26245,
+    "deaths": 9227,
+    "entry_from": "2020-04-01",
+    "entry_to": "2020-04-30"
+  },
+  "runs": [
+    {
+      "n": 100,
+      "label": "100",
+      "model": "logreg",
+      "train_deaths": 39,
+      "auc_mean": 0.7275228589908238,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7215004401746649,
+        0.7336446370634535
+      ]
+    },
+    {
+      "n": 100,
+      "label": "100",
+      "model": "gbm",
+      "train_deaths": 39,
+      "auc_mean": 0.7204500464339819,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7141824411227479,
+        0.7265323127188256
+      ]
+    },
+    {
+      "n": 300,
+      "label": "300",
+      "model": "logreg",
+      "train_deaths": 110,
+      "auc_mean": 0.7383146664858379,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7321794295613895,
+        0.7441187735389947
+      ]
+    },
+    {
+      "n": 300,
+      "label": "300",
+      "model": "gbm",
+      "train_deaths": 110,
+      "auc_mean": 0.7093086100904922,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7027646986385493,
+        0.7161041535677707
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "1000",
+      "model": "logreg",
+      "train_deaths": 333,
+      "auc_mean": 0.7828615231581532,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7769194775294318,
+        0.7884022611086958
+      ]
+    },
+    {
+      "n": 1000,
+      "label": "1000",
+      "model": "gbm",
+      "train_deaths": 333,
+      "auc_mean": 0.7556344627634848,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7495380608952712,
+        0.7615298184836364
+      ]
+    },
+    {
+      "n": 3000,
+      "label": "3000",
+      "model": "logreg",
+      "train_deaths": 902,
+      "auc_mean": 0.7969486894597211,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7915568933078566,
+        0.8021913594124427
+      ]
+    },
+    {
+      "n": 3000,
+      "label": "3000",
+      "model": "gbm",
+      "train_deaths": 902,
+      "auc_mean": 0.7743377895682223,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.7684750713794205,
+        0.7799138580866035
+      ]
+    },
+    {
+      "n": 537778,
+      "label": "reference",
+      "model": "logreg",
+      "train_deaths": 177830,
+      "auc_mean": 0.8070473242727599,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.8019473944418456,
+        0.8121478822354854
+      ]
+    },
+    {
+      "n": 537778,
+      "label": "reference",
+      "model": "gbm",
+      "train_deaths": 177830,
+      "auc_mean": 0.8154252913448492,
+      "auc_seed_sd": 0.0,
+      "auc_test_boot95": [
+        0.810636260758571,
+        0.820602545480472
+      ]
+    }
+  ]
+}

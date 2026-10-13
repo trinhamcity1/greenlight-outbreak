@@ -1,0 +1,21 @@
+# Baselines for steps 2-3 on the Exp. 8d replay (outcomes used only once known). See run_baselines.py.
+name = "exp15_baselines"
+kinship_run = "exp05d_kinship_known"
+outcome_timing = "known"
+day0_mode = "threshold"
+season_threshold = 20
+max_day = 90
+day_step = 2
+test_from_day = 91
+test_to_day = 182
+min_test = 200
+min_test_deaths = 20
+lam0 = 10.0            # as OS (Exp. 6b)
+max_lam = 1000.0       # cap on the meta-analytic prior's precision per coefficient
+max_fit_rows = 100000
+seed = 0
+n_jobs = 4
+
+[override.covid_2020]  # July 2020, as in Exp. 8d
+test_from_day = 126
+test_to_day = 156

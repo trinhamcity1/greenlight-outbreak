@@ -1,0 +1,10 @@
+# Step 1 rerun with seasonal day 0 = first week with >= 20 new records (COVID, H1N1 unchanged).
+name = "exp05b_kinship_replay"
+weeks = 26            # replay the first 26 weeks of each outbreak
+min_kin_rows = 200    # a past outbreak needs this many records before fob's day 0 to be a candidate
+min_kin_deaths = 20
+max_fit_rows = 100000 # subsample very large outbreaks when fitting (COVID)
+own_C = 0.3           # regularisation of the Stranger's own risk model
+own_min_rows = 30     # below this, the Stranger predicts deaths with its base rate only
+day0_mode = "threshold"
+season_threshold = 20

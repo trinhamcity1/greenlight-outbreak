@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Glass Box: covid_2020</title><style>
+:root{--bg:#ffffff;--fg:#1f2328;--muted:#57606a;--line:#d0d7de;--soft:#f3f6f8;--ok:#1a7f37;--warn:#9a6700;--bad:#cf222e;--accent:#0b6e4f}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9da7b3;--line:#30363d;--soft:#161b22;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--accent:#3fb98a}}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;padding:24px 16px}
+main{max-width:980px;margin:0 auto} h1{font-size:24px;margin:0 0 4px} h2{font-size:18px;margin:28px 0 8px;color:var(--accent)}
+.sub{color:var(--muted);margin:0 0 16px} .pill{display:inline-block;padding:2px 10px;border-radius:999px;font-weight:600;font-size:13px}
+.green{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)} .amber{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:6px 0 4px;font-size:14px} th,td{border-bottom:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600} td.n{text-align:right;font-variant-numeric:tabular-nums} .scroll{overflow-x:auto}
+.bar{display:inline-block;height:9px;background:var(--accent);border-radius:3px;vertical-align:middle} .muted{color:var(--muted)} details{margin:6px 0}
+.note{font-size:13px;color:var(--muted)}
+</style></head><body><main>
+<h1>Glass Box Report: covid 2020</h1>
+<p class='sub'>Day 14 of the outbreak (2020-03-11; day 0 = 2020-02-26). GreenLight has seen 9 real hospitalised patients; 3 of them have a known outcome so far, with 0 deaths (0.0%). GreenLight v1.</p>
+<div class='card'><span class='pill amber'>NOT YET</span><br>
+deaths with a known outcome so far: 0 (needs at least 10) <b style='color:var(--bad)'>✗</b><br>stability of the risk ranking vs 8 days earlier: 1.000 (needs at least 0.99 on two checks in a row) <b style='color:var(--ok)'>✓</b><br>recipe in use: age-trend fallback (GreenLight does not yet trust what it borrowed) <b style='color:var(--bad)'>✗</b></div>
+<h2>1. Kinship Vote: what is this outbreak related to?</h2>
+<p>Each past outbreak in the Atlas predicted this outbreak's patients before seeing them; better predictions earn more votes. <b>Stranger share: 5%</b>: the weight given to 'none of the above, learn from this outbreak alone'. Borrowing strength is reduced by the same share.</p>
+<div class='scroll'><table><tr><th>past outbreak</th><th>share of the vote (among past outbreaks)</th></tr><tr><td class=''>othervirus 2013</td><td class=''><span class='bar' style='width:9px'></span> 7.1%</td></tr><tr><td class=''>othervirus 2016</td><td class=''><span class='bar' style='width:9px'></span> 7.0%</td></tr><tr><td class=''>othervirus 2019</td><td class=''><span class='bar' style='width:9px'></span> 6.9%</td></tr><tr><td class=''>othervirus 2018</td><td class=''><span class='bar' style='width:9px'></span> 6.9%</td></tr><tr><td class=''>othervirus 2014</td><td class=''><span class='bar' style='width:9px'></span> 6.8%</td></tr><tr><td class=''>othervirus 2017</td><td class=''><span class='bar' style='width:9px'></span> 6.8%</td></tr></table></div>
+<p class='note'>The pathogen group has no earlier member in the Atlas (lab label), so GreenLight starts on the age-trend fallback until 20 deaths have been scored on fresh data.</p>
+<h2>2. What GreenLight believes drives the risk of death</h2>
+<p>On the fallback GreenLight uses age only. Each 20 years of age multiplies the odds of death by <b>1.72</b> (95% interval 0.93–3.20); relatives suggested 1.72.</p>
+<h2>3. Recent evidence GreenLight can see</h2>
+<p>'Fresh-week AUC' scores the recipe on each week's patients using a model fitted only on earlier weeks.</p>
+<div class='scroll'><table><tr><th>day</th><th>patients</th><th>deaths</th><th>deaths scored on fresh weeks</th><th>fresh-week AUC of recipe in use</th><th>stability</th><th>recipe</th></tr><tr><td class=''>0</td><td class=''>1</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>—</td><td class=''>age_trend</td></tr><tr><td class=''>2</td><td class=''>2</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>—</td><td class=''>age_trend</td></tr><tr><td class=''>4</td><td class=''>2</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>—</td><td class=''>age_trend</td></tr><tr><td class=''>6</td><td class=''>2</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>—</td><td class=''>age_trend</td></tr><tr><td class=''>8</td><td class=''>5</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>1.000</td><td class=''>age_trend</td></tr><tr><td class=''>10</td><td class=''>7</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>1.000</td><td class=''>age_trend</td></tr><tr><td class=''>12</td><td class=''>8</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>1.000</td><td class=''>age_trend</td></tr><tr><td class=''>14</td><td class=''>9</td><td class=''>0</td><td class=''>0</td><td class=''>—</td><td class=''>1.000</td><td class=''>age_trend</td></tr></table></div>
+<h2>4. Synth Release</h2>
+<p><b>Not released.</b> GreenLight releases synthetic data only after the green light.</p>
+<h2>Replay check (hindsight, not available live)</h2>
+<p class='note'>Scored on 93,626 later real patients entered on days 126–156, which GreenLight had not seen. GreenLight today: AUC <b>0.727</b>. Ranking by age alone: 0.727. Best possible (gold, trained on all other records of this outbreak): 0.767.</p>
+<p class='note'>Data: SIVEP-Gripe SRAG, Ministério da Saúde (Brazil), CC-BY. Generated by outbreak-synth.</p></main></body></html>

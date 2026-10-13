@@ -1,0 +1,27 @@
+fob,week,patients,deaths,stranger,groups,top_kin
+ebola_sl_2014,0,3,3,0.038,"covid 34%, flu 34%, othervirus 32%",covid_mx_2021 7%
+ebola_sl_2014,1,19,18,0.045,"flu 37%, covid 36%, othervirus 28%",covid_mx_2021 7%
+ebola_sl_2014,2,31,27,0.051,"flu 39%, covid 37%, othervirus 24%",covid_mx_2021 8%
+ebola_sl_2014,3,65,59,0.067,"flu 47%, covid 35%, othervirus 19%",covid_mx_2021 8%
+ebola_sl_2014,4,74,62,0.083,"flu 47%, covid 40%, othervirus 13%",covid_mx_2021 9%
+ebola_sl_2014,5,76,62,0.091,"covid 43%, flu 43%, othervirus 14%",covid_mx_2021 10%
+ebola_sl_2014,6,83,62,0.101,"covid 44%, flu 42%, othervirus 14%",covid_mx_2021 10%
+h7n9_cn_2013,0,2,2,0.038,"covid 34%, flu 33%, othervirus 33%",covid_mx_2021 7%
+h7n9_cn_2013,1,3,2,0.038,"flu 34%, covid 33%, othervirus 33%",covid_2022 7%
+h7n9_cn_2013,3,4,3,0.038,"flu 34%, covid 33%, othervirus 33%",covid_mx_2021 7%
+h7n9_cn_2013,4,10,8,0.037,"covid 35%, flu 34%, othervirus 30%",covid_mx_2021 7%
+h7n9_cn_2013,5,17,14,0.038,"covid 37%, flu 34%, othervirus 29%",covid_mx_2021 7%
+h7n9_cn_2013,6,29,19,0.04,"covid 39%, flu 35%, othervirus 26%",covid_mx_2021 8%
+h7n9_cn_2013,7,42,21,0.042,"covid 41%, flu 36%, othervirus 23%",covid_mx_2021 8%
+h7n9_cn_2013,8,50,24,0.044,"covid 42%, flu 37%, othervirus 21%",covid_mx_2021 9%
+h7n9_cn_2013,9,58,26,0.046,"covid 43%, flu 37%, othervirus 19%",covid_2020 9%
+h7n9_cn_2013,10,69,27,0.046,"covid 45%, flu 38%, othervirus 17%",covid_mx_2021 9%
+h7n9_cn_2013,11,71,27,0.046,"covid 45%, flu 38%, othervirus 17%",covid_mx_2021 9%
+h7n9_cn_2013,12,72,28,0.046,"covid 45%, flu 38%, othervirus 17%",covid_mx_2021 9%
+h7n9_cn_2013,16,73,29,0.047,"covid 45%, flu 38%, othervirus 16%",covid_mx_2021 9%
+h7n9_cn_2013,22,74,30,0.047,"covid 46%, flu 38%, othervirus 16%",covid_mx_2021 9%
+mers_kr_2015,0,3,1,0.037,"covid 34%, flu 33%, othervirus 32%",covid_2022 7%
+mers_kr_2015,1,18,2,0.035,"covid 38%, flu 35%, othervirus 27%",covid_2021 8%
+mers_kr_2015,2,95,16,0.044,"covid 55%, flu 35%, othervirus 10%",covid_2021 12%
+mers_kr_2015,3,154,19,0.053,"covid 64%, flu 31%, othervirus 4%",covid_2021 15%
+mers_kr_2015,4,162,19,0.054,"covid 66%, flu 31%, othervirus 4%",covid_2021 15%

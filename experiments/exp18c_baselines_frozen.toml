@@ -1,0 +1,23 @@
+# Frozen final test (docs/frozen_test_plan.md): exp15_baselines settings, unchanged, on the 2023-2025 seasons.
+# Baselines for steps 2-3 on the Exp. 8d replay (outcomes used only once known). See run_baselines.py.
+name = "exp18c_baselines_frozen"
+kinship_run = "exp18a_kinship_frozen"
+outcome_timing = "known"
+day0_mode = "threshold"
+season_threshold = 20
+max_day = 90
+day_step = 2
+test_from_day = 91
+test_to_day = 182
+min_test = 200
+min_test_deaths = 20
+lam0 = 10.0            # as OS (Exp. 6b)
+max_lam = 1000.0       # cap on the meta-analytic prior's precision per coefficient
+max_fit_rows = 100000
+seed = 0
+n_jobs = 4
+
+only = ["flu_2023", "othervirus_2023", "covid_2023", "flu_2024", "othervirus_2024", "covid_2024", "flu_2025", "othervirus_2025", "covid_2025"]
+[override.covid_2020]  # July 2020, as in Exp. 8d
+test_from_day = 126
+test_to_day = 156

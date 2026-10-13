@@ -1,0 +1,8 @@
+# Real data only, day by day: train on every record entered up to day d, test on a fixed later month.
+name = "exp02_days_to_plateau"
+model = "logreg"
+max_day = 120          # days after the first record entered
+test_from = "2020-07-01"
+test_to = "2020-07-31"
+min_class = 10         # skip days with fewer than this many deaths or survivors
+# Gold standard: trained on everything we hold today except the test month (2020-2022).

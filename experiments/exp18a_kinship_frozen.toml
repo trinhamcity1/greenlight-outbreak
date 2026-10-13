@@ -1,0 +1,12 @@
+# Frozen final test (docs/frozen_test_plan.md), step 1: Kinship Vote on the 2023-2025 seasons. Settings as Exp. 5d.
+name = "exp18a_kinship_frozen"
+weeks = 26            # replay the first 26 weeks of each outbreak
+min_kin_rows = 200    # a past outbreak needs this many records before fob's day 0 to be a candidate
+min_kin_deaths = 20
+max_fit_rows = 100000 # subsample very large outbreaks when fitting (COVID)
+own_C = 0.3           # regularisation of the Stranger's own risk model
+own_min_rows = 30     # below this, the Stranger predicts deaths with its base rate only
+day0_mode = "threshold"
+season_threshold = 20
+outcome_timing = "known"
+only = ["flu_2023", "othervirus_2023", "covid_2023", "flu_2024", "othervirus_2024", "covid_2024", "flu_2025", "othervirus_2025", "covid_2025"]

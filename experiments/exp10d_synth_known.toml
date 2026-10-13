@@ -1,0 +1,13 @@
+# Synth Release (dependency chain) on the OS state with outcomes usable only once known (Exp. 5d / 8d).
+name = "exp10d_synth_known"
+os_run = "exp08d_os_replay_known"
+kinship_run = "exp05d_kinship_known"
+kinship_analysis = "exp05d_kinship_known"
+vote_prior = "group"
+outcome_timing = "known"
+n_rows = 50000
+seed = 0
+profile_model = "chain"
+ctgan = false
+green_m = 10
+green_s = 0.99

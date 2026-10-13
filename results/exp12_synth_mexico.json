@@ -1,0 +1,181 @@
+{
+  "config": {
+    "name": "exp12_synth_mexico",
+    "os_run": "exp11_os_mexico",
+    "kinship_run": "exp11_kinship_mexico",
+    "only": [
+      "covid_mx_2020",
+      "covid_mx_2021"
+    ],
+    "n_rows": 50000,
+    "seed": 0,
+    "profile_model": "chain",
+    "ctgan_python": ".venv-ctgan/bin/python",
+    "ctgan_epochs": 300,
+    "ctgan_max_rows": 20000
+  },
+  "outbreaks": {
+    "covid_mx_2020": {
+      "green_day": 48,
+      "recipe": "kin",
+      "early_n": 4862,
+      "early_deaths": 2065,
+      "test_n": 48868,
+      "test_deaths": 21404,
+      "ctgan_log": "ctgan rows=4862 epochs=300 seconds=106",
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.023998654526607766,
+          "age_ks": 0.018632373508844058,
+          "age_band_tvd": 0.006586705059646217,
+          "death_rate_diff": -0.0027223364870423983,
+          "death_by_band_max_diff": 0.017985834577274207,
+          "yes_rate_mean_abs_diff": 0.0004625920403126295,
+          "yes_rate_max_abs_diff": 0.0023264500205676664,
+          "yes_rate_worst_field": "OBESIDADE",
+          "corr_mean_abs_diff": 0.0015822130849051106,
+          "corr_max_abs_diff": 0.03613115023797825
+        },
+        "ctgan_vs_early": {
+          "age_mean_diff": -4.491594862673118,
+          "age_ks": 0.10961604278074866,
+          "age_band_tvd": 0.10228280542986426,
+          "death_rate_diff": -0.08584233648704237,
+          "death_by_band_max_diff": 0.34438063771137306,
+          "yes_rate_mean_abs_diff": 0.016414605614973262,
+          "yes_rate_max_abs_diff": 0.11114645002056767,
+          "yes_rate_worst_field": "OBESIDADE",
+          "corr_mean_abs_diff": 0.017832057916935207,
+          "corr_max_abs_diff": 0.3689621134181936
+        },
+        "os_vs_later": {
+          "age_mean_diff": 4.641139211137045,
+          "age_ks": 0.15863167389702876,
+          "age_band_tvd": 0.14023251207334048,
+          "death_rate_diff": -0.015996234754849792,
+          "death_by_band_max_diff": 0.06303467745651181,
+          "yes_rate_mean_abs_diff": 0.006833183576164359,
+          "yes_rate_max_abs_diff": 0.047524352950806203,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.007783936270581086,
+          "corr_max_abs_diff": 0.09476451239425532
+        },
+        "ctgan_vs_later": {
+          "age_mean_diff": 0.1735430029905345,
+          "age_ks": 0.06346132929524434,
+          "age_band_tvd": 0.058683290496848686,
+          "death_rate_diff": -0.09911623475484976,
+          "death_by_band_max_diff": 0.3119325031946356,
+          "yes_rate_mean_abs_diff": 0.02104318357616436,
+          "yes_rate_max_abs_diff": 0.129721956290415,
+          "yes_rate_worst_field": "OBESIDADE",
+          "corr_mean_abs_diff": 0.012557910795327504,
+          "corr_max_abs_diff": 0.322358513644462
+        },
+        "early_vs_later": {
+          "age_mean_diff": 4.665137865663652,
+          "age_ks": 0.14716157769111943,
+          "age_band_tvd": 0.1411515577335626,
+          "death_rate_diff": -0.013273898267807394,
+          "death_by_band_max_diff": 0.0650587365766706,
+          "yes_rate_mean_abs_diff": 0.006610575081717628,
+          "yes_rate_max_abs_diff": 0.048247569734023,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.008723844886697888,
+          "corr_max_abs_diff": 0.08739516062746189
+        }
+      },
+      "auc": {
+        "gold": 0.6975513344922529,
+        "age_only": 0.6930605649920851,
+        "os_model": 0.6906435079444548,
+        "real_early": 0.6906435079444548,
+        "os_synth_only": 0.6890722524076369,
+        "ctgan_synth_only": 0.5716851183939583,
+        "real_plus_os_synth": 0.6894109265098395,
+        "real_plus_ctgan": 0.6034559153511464
+      }
+    },
+    "covid_mx_2021": {
+      "green_day": 18,
+      "recipe": "kin",
+      "early_n": 33830,
+      "early_deaths": 19487,
+      "test_n": 34013,
+      "test_deaths": 13368,
+      "ctgan_log": "ctgan rows=20000 epochs=300 seconds=388",
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.01900145279851273,
+          "age_ks": 0.014967123854566888,
+          "age_band_tvd": 0.003579940880874946,
+          "death_rate_diff": -0.0014671947975170019,
+          "death_by_band_max_diff": 0.004505306747951687,
+          "yes_rate_mean_abs_diff": 0.00039710353236771935,
+          "yes_rate_max_abs_diff": 0.002309648241206025,
+          "yes_rate_worst_field": "OBESIDADE",
+          "corr_mean_abs_diff": 0.0009577598239295434,
+          "corr_max_abs_diff": 0.02383881032757368
+        },
+        "ctgan_vs_early": {
+          "age_mean_diff": 2.6244565989236577,
+          "age_ks": 0.1392912621933195,
+          "age_band_tvd": 0.12734478273721553,
+          "death_rate_diff": 0.024312805202483023,
+          "death_by_band_max_diff": 0.16776093096159334,
+          "yes_rate_mean_abs_diff": 0.01815904337865799,
+          "yes_rate_max_abs_diff": 0.1800612592373632,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.008271279352774585,
+          "corr_max_abs_diff": 0.16292506740018206
+        },
+        "os_vs_later": {
+          "age_mean_diff": -6.412984921731876,
+          "age_ks": 0.21497045306206447,
+          "age_band_tvd": 0.20203207067885812,
+          "death_rate_diff": 0.18153380413371356,
+          "death_by_band_max_diff": 0.13770870529364654,
+          "yes_rate_mean_abs_diff": 0.005841495126863259,
+          "yes_rate_max_abs_diff": 0.04642649692764533,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.004053888904682673,
+          "corr_max_abs_diff": 0.082339401566736
+        },
+        "ctgan_vs_later": {
+          "age_mean_diff": -3.8075297756067314,
+          "age_ks": 0.1571577055831594,
+          "age_band_tvd": 0.09895207067885808,
+          "death_rate_diff": 0.2073138041337136,
+          "death_by_band_max_diff": 0.25343319306902723,
+          "yes_rate_mean_abs_diff": 0.023176544593243757,
+          "yes_rate_max_abs_diff": 0.22482649692764528,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.010227004564836077,
+          "corr_max_abs_diff": 0.1576357531489929
+        },
+        "early_vs_later": {
+          "age_mean_diff": -6.431986374530389,
+          "age_ks": 0.20207662509871832,
+          "age_band_tvd": 0.2012698418878442,
+          "death_rate_diff": 0.18300099893123056,
+          "death_by_band_max_diff": 0.14221401204159823,
+          "yes_rate_mean_abs_diff": 0.005627657926153832,
+          "yes_rate_max_abs_diff": 0.04476523769028207,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.003813041687475123,
+          "corr_max_abs_diff": 0.07372853526929464
+        }
+      },
+      "auc": {
+        "gold": 0.679758289624018,
+        "age_only": 0.6743663743581293,
+        "os_model": 0.6792535291023672,
+        "real_early": 0.6791969638929096,
+        "os_synth_only": 0.6793199717547166,
+        "ctgan_synth_only": 0.6660544826125844,
+        "real_plus_os_synth": 0.6793116849932003,
+        "real_plus_ctgan": 0.6791060196745908
+      }
+    }
+  }
+}

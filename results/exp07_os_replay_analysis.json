@@ -1,0 +1,53 @@
+{
+  "outbreaks": 23,
+  "os_plateau_earlier_than_real": 21,
+  "same": 1,
+  "later": 1,
+  "os_beats_age_only_by_day": [
+    {
+      "day": 0,
+      "os_beats_age_only": "17/23"
+    },
+    {
+      "day": 14,
+      "os_beats_age_only": "12/23"
+    },
+    {
+      "day": 28,
+      "os_beats_age_only": "18/23"
+    },
+    {
+      "day": 56,
+      "os_beats_age_only": "21/23"
+    },
+    {
+      "day": 90,
+      "os_beats_age_only": "22/23"
+    }
+  ],
+  "candidate_use": {
+    "kin": 0.47,
+    "own": 0.354,
+    "consensus": 0.176
+  },
+  "green_light": {
+    "rules_chosen": [
+      [
+        50,
+        0.98
+      ],
+      [
+        100,
+        0.9
+      ],
+      [
+        100,
+        0.98
+      ]
+    ],
+    "greens": 13,
+    "false_greens": 2,
+    "never_green": 10,
+    "median_green_day": 56.0
+  }
+}

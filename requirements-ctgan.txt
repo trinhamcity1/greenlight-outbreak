@@ -1,0 +1,7 @@
+ctgan==0.12.1
+numpy==2.4.6
+pandas==2.3.3
+pyarrow==25.0.1
+rdt==1.22.0
+scikit-learn==1.9.1
+torch==2.14.1+cpu

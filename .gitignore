@@ -1,0 +1,14 @@
+data/
+__pycache__/
+*.pyc
+.venv/
+results/**/*.parquet
+.venv-ctgan/
+.venv-synthcity/
+results/*_parts/
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out
+paper/*.bbl
+paper/build.log

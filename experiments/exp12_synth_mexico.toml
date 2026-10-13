@@ -1,0 +1,12 @@
+# Out-of-country test: Synth Release (dependency chain) on the Mexico outbreaks' Green Light days, plus CTGAN.
+# Run with OUTBREAK_LIB=data/processed/library_intl.parquet after Exp. 11.
+name = "exp12_synth_mexico"
+os_run = "exp11_os_mexico"
+kinship_run = "exp11_kinship_mexico"
+only = ["covid_mx_2020", "covid_mx_2021"]
+n_rows = 50000
+seed = 0
+profile_model = "chain"
+ctgan_python = ".venv-ctgan/bin/python"
+ctgan_epochs = 300
+ctgan_max_rows = 20000

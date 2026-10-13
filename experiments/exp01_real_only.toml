@@ -1,0 +1,10 @@
+# Baseline: no synthetic data. Earliest-N by data-entry date, test = next 30 days of entries.
+name = "exp01_real_only"
+n_values = [100, 300, 1000, 3000]
+test_days = 30
+models = ["logreg", "gbm"]
+seeds = [0, 1, 2, 3, 4]
+bootstrap = 1000
+# Reference ceiling: trained on every record entered after the test window up to this date.
+# This uses future data and is only an upper reference, not something available in an outbreak.
+reference_until = "2020-12-31"

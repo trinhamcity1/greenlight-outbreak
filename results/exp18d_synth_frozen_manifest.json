@@ -1,0 +1,56 @@
+[
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_covid_2023_day28.parquet",
+    "rows": 50000,
+    "sha256": "c433cc2e5ae674be2c1f92e319c05aac8fa3c6c55dac763d7eed4fff28de97ce",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2023; day=28 (day 0 = 2023-01-01); learned from 3666 real records (813 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_covid_2024_day34.parquet",
+    "rows": 50000,
+    "sha256": "9a94c6517250e66f10904413592511df3763c7e621406f84c2c1650b9562b808",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2024; day=34 (day 0 = 2024-01-01); learned from 2566 real records (477 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_covid_2025_day32.parquet",
+    "rows": 50000,
+    "sha256": "9d30cb798b850c0a21faa179b2c022df561fc211f393c83c009d2554b52b8549",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=covid_2025; day=32 (day 0 = 2025-01-01); learned from 2285 real records (425 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_flu_2023_day40.parquet",
+    "rows": 50000,
+    "sha256": "e8f498d81435aed3fb460d03be96c915c17afa43f857c73d7b38c99943cd11aa",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2023; day=40 (day 0 = 2023-01-08); learned from 232 real records (16 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_flu_2024_day24.parquet",
+    "rows": 50000,
+    "sha256": "8a770c4794bb0a5b83dcf0bfe0aeff25575351108205476a8d0b3ed2b759ee34",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2024; day=24 (day 0 = 2024-01-03); learned from 157 real records (16 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_flu_2025_day18.parquet",
+    "rows": 50000,
+    "sha256": "2c2787c0825dfdcf757cc37e6926a964e2c83c4640af09de55078902fab69fe6",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=flu_2025; day=18 (day 0 = 2025-01-01); learned from 246 real records (27 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_othervirus_2023_day52.parquet",
+    "rows": 50000,
+    "sha256": "642dc9d7278b3365bd54de271e19339419409202fe171dd99f51cc650f59f484",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2023; day=52 (day 0 = 2023-01-01); learned from 2594 real records (43 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_othervirus_2024_day38.parquet",
+    "rows": 50000,
+    "sha256": "32a36f1366f6569a14ef9671198d833e6c59c89f5d66a24b9daeae01a8e862de",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2024; day=38 (day 0 = 2024-01-02); learned from 938 real records (33 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  },
+  {
+    "file": "data/synthetic/os/SYNTHETIC_os_chain_othervirus_2025_day58.parquet",
+    "rows": 50000,
+    "sha256": "57f95412c7e1ca137318c7405e66e356021f55e5ce5bc87c70d4fa3b3e04ab53",
+    "provenance": "SYNTHETIC - Outbreak Synth (OS) v1; outbreak=othervirus_2025; day=58 (day 0 = 2025-01-01); learned from 3953 real records (90 deaths) entered up to that day; recipe=kin; profile=dependency chain; seed=0. Not real patients."
+  }
+]

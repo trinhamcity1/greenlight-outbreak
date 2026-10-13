@@ -1,0 +1,26 @@
+# Frozen final test (docs/frozen_test_plan.md): exp08d_os_replay_known settings, unchanged, on the 2023-2025 seasons.
+name = "exp18b_os_replay_frozen"
+kinship_run = "exp18a_kinship_frozen"
+kinship_analysis = "exp18a_kinship_frozen"
+vote_prior = "group"
+outcome_timing = "known"
+day0_mode = "threshold"
+season_threshold = 20
+max_day = 90
+day_step = 2
+test_from_day = 91
+test_to_day = 182
+min_test = 200
+min_test_deaths = 20
+min_class = 10
+lam0 = 10.0            # chosen for 23 of 23 outbreaks in Exp. 6b
+min_agree_kin = 3      # consensus: at least 3 past outbreaks collected the field
+agree_share = 0.8      #            and at least 80% agree on its direction
+stability_lag = 8      # Green Light: compare OS risk scores with those from 8 days earlier
+max_fit_rows = 100000
+n_jobs = 4
+
+only = ["flu_2023", "othervirus_2023", "covid_2023", "flu_2024", "othervirus_2024", "covid_2024", "flu_2025", "othervirus_2025", "covid_2025"]
+[override.covid_2020]  # July 2020, as in Exp. 2/3/6 (day 0 = 2020-02-26 is unchanged)
+test_from_day = 126
+test_to_day = 156

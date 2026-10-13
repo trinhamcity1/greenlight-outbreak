@@ -1,0 +1,291 @@
+{
+  "which": "frozen",
+  "per_outbreak": [
+    {
+      "outbreak": "covid_2023",
+      "green_day": 28,
+      "train_n": 3022,
+      "holdout_match": 0.028277634961439587,
+      "os_match": 0.02584,
+      "os_ratio": 0.9137963636363636,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 35.36363636363637,
+      "bayesian_network_match": 0.0083,
+      "bayesian_network_ratio": 0.29351818181818184,
+      "arf_match": 0.01072,
+      "arf_ratio": 0.37909818181818183,
+      "ctgan_match": 0.01082,
+      "ctgan_ratio": 0.38263454545454545,
+      "tvae_match": 0.02192,
+      "tvae_ratio": 0.7751709090909091
+    },
+    {
+      "outbreak": "covid_2024",
+      "green_day": 34,
+      "train_n": 2095,
+      "holdout_match": 0.034521158129175944,
+      "os_match": 0.02028,
+      "os_ratio": 0.587465806451613,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 28.967741935483872,
+      "bayesian_network_match": 0.00596,
+      "bayesian_network_ratio": 0.17264774193548388,
+      "arf_match": 0.00898,
+      "arf_ratio": 0.26013032258064517,
+      "ctgan_match": 0.00516,
+      "ctgan_ratio": 0.14947354838709678,
+      "tvae_match": 0.01374,
+      "tvae_ratio": 0.3980167741935484
+    },
+    {
+      "outbreak": "covid_2025",
+      "green_day": 32,
+      "train_n": 1885,
+      "holdout_match": 0.061893203883495146,
+      "os_match": 0.03866,
+      "os_ratio": 0.6246243137254902,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 16.15686274509804,
+      "bayesian_network_match": 0.0079,
+      "bayesian_network_ratio": 0.1276392156862745,
+      "arf_match": 0.01332,
+      "arf_ratio": 0.2152094117647059,
+      "ctgan_match": 0.0027,
+      "ctgan_ratio": 0.04362352941176471,
+      "tvae_match": 0.01954,
+      "tvae_ratio": 0.31570509803921565
+    },
+    {
+      "outbreak": "flu_2023",
+      "green_day": 40,
+      "train_n": 177,
+      "holdout_match": 0.013090418353576248,
+      "os_match": 0.02004,
+      "os_ratio": 1.5308907216494845,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 76.3917525773196,
+      "bayesian_network_match": 0.01088,
+      "bayesian_network_ratio": 0.8311422680412373,
+      "arf_match": 0.0088,
+      "arf_ratio": 0.6722474226804125,
+      "ctgan_match": 0.00424,
+      "ctgan_ratio": 0.32390103092783507,
+      "tvae_match": 0.00658,
+      "tvae_ratio": 0.502657731958763
+    },
+    {
+      "outbreak": "flu_2024",
+      "green_day": 24,
+      "train_n": 113,
+      "holdout_match": 0.0025930727912576402,
+      "os_match": 0.00156,
+      "os_ratio": 0.6016028571428571,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 385.64285714285717,
+      "bayesian_network_match": 0.01632,
+      "bayesian_network_ratio": 6.293691428571429,
+      "arf_match": 0.00102,
+      "arf_ratio": 0.3933557142857143,
+      "ctgan_match": 0.00022,
+      "ctgan_ratio": 0.08484142857142858,
+      "tvae_match": 0.00164,
+      "tvae_ratio": 0.6324542857142857
+    },
+    {
+      "outbreak": "flu_2025",
+      "green_day": 18,
+      "train_n": 182,
+      "holdout_match": 0.0062502504106735045,
+      "os_match": 0.00802,
+      "os_ratio": 1.2831485897435897,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 159.99358974358975,
+      "bayesian_network_match": 0.01052,
+      "bayesian_network_ratio": 1.683132564102564,
+      "arf_match": 0.00296,
+      "arf_ratio": 0.47358102564102567,
+      "ctgan_match": 0.00046,
+      "ctgan_ratio": 0.07359705128205128,
+      "tvae_match": 0.00182,
+      "tvae_ratio": 0.2911883333333333
+    },
+    {
+      "outbreak": "othervirus_2023",
+      "green_day": 52,
+      "train_n": 2280,
+      "holdout_match": 0.38820427272238067,
+      "os_match": 0.40428,
+      "os_ratio": 1.0414104851677293,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 2.575963404491267,
+      "bayesian_network_match": 0.15946,
+      "bayesian_network_ratio": 0.41076312448017743,
+      "arf_match": 0.20046,
+      "arf_ratio": 0.5163776240643194,
+      "ctgan_match": 0.20438,
+      "ctgan_ratio": 0.5264754006099251,
+      "tvae_match": 0.44868,
+      "tvae_ratio": 1.1557832603271416
+    },
+    {
+      "outbreak": "othervirus_2024",
+      "green_day": 38,
+      "train_n": 753,
+      "holdout_match": 0.24726530899370405,
+      "os_match": 0.18436,
+      "os_ratio": 0.7455958975817923,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 4.044238975817923,
+      "bayesian_network_match": 0.05176,
+      "bayesian_network_ratio": 0.2093298093883357,
+      "arf_match": 0.09374,
+      "arf_ratio": 0.37910696159317214,
+      "ctgan_match": 0.06192,
+      "ctgan_ratio": 0.2504192773826458,
+      "tvae_match": 0.06892,
+      "tvae_ratio": 0.27872895021337124
+    },
+    {
+      "outbreak": "othervirus_2025",
+      "green_day": 58,
+      "train_n": 3290,
+      "holdout_match": 0.42993346594416626,
+      "os_match": 0.31098,
+      "os_ratio": 0.7233212220804084,
+      "bootstrap_match": 1.0,
+      "bootstrap_ratio": 2.325941289087428,
+      "bayesian_network_match": 0.07902,
+      "bayesian_network_ratio": 0.1837958806636886,
+      "arf_match": 0.17436,
+      "arf_ratio": 0.40555112316528397,
+      "ctgan_match": 0.2757,
+      "ctgan_ratio": 0.641262013401404,
+      "tvae_match": 0.25132,
+      "tvae_ratio": 0.5845555647734524
+    }
+  ],
+  "summary": {
+    "holdout_match": {
+      "mean": 0.1346698651322077,
+      "ci": [
+        0.03425394355039546,
+        0.24352812420599174
+      ],
+      "n": 9
+    },
+    "os_match": {
+      "mean": 0.11266888888888887,
+      "ci": [
+        0.0248035,
+        0.21035916666666662
+      ],
+      "n": 9
+    },
+    "bootstrap_match": {
+      "mean": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "n": 9
+    },
+    "bayesian_network_match": {
+      "mean": 0.03890222222222222,
+      "ci": [
+        0.011305666666666667,
+        0.07279522222222222
+      ],
+      "n": 9
+    },
+    "arf_match": {
+      "mean": 0.05715111111111112,
+      "ci": [
+        0.009453222222222224,
+        0.10801411111111106
+      ],
+      "n": 9
+    },
+    "ctgan_match": {
+      "mean": 0.06284444444444444,
+      "ci": [
+        0.0053495555555555544,
+        0.13133150000000002
+      ],
+      "n": 9
+    },
+    "tvae_match": {
+      "mean": 0.09268444444444444,
+      "ci": [
+        0.013338055555555554,
+        0.1936999444444444
+      ],
+      "n": 9
+    },
+    "os_minus_holdout": {
+      "mean": -0.02200097624331879,
+      "ci": [
+        -0.051565620630306806,
+        -0.00036966887250799795
+      ],
+      "n": 9
+    },
+    "bootstrap_minus_holdout": {
+      "mean": 0.8653301348677923,
+      "ci": [
+        0.7564718757940082,
+        0.9657460564496044
+      ],
+      "n": 9
+    },
+    "bayesian_network_minus_holdout": {
+      "mean": -0.09576764290998545,
+      "ci": [
+        -0.17787987089100665,
+        -0.022853827972312588
+      ],
+      "n": 9
+    },
+    "arf_minus_holdout": {
+      "mean": -0.07751875402109656,
+      "ci": [
+        -0.1369525800695391,
+        -0.023152605245617117
+      ],
+      "n": 9
+    },
+    "ctgan_minus_holdout": {
+      "mean": -0.07182542068776322,
+      "ci": [
+        -0.12137415964189337,
+        -0.02715038562359103
+      ],
+      "n": 9
+    },
+    "tvae_minus_holdout": {
+      "mean": -0.041985420687763224,
+      "ci": [
+        -0.0948723239093915,
+        0.002890576868453252
+      ],
+      "n": 9
+    },
+    "os_ratio_of_means": {
+      "value": 0.83663029422566
+    },
+    "bootstrap_ratio_of_means": {
+      "value": 7.425566209769967
+    },
+    "bayesian_network_ratio_of_means": {
+      "value": 0.28887102681829563
+    },
+    "arf_ratio_of_means": {
+      "value": 0.4243793595174756
+    },
+    "ctgan_ratio_of_means": {
+      "value": 0.46665558313843253
+    },
+    "tvae_ratio_of_means": {
+      "value": 0.6882344788379684
+    }
+  }
+}

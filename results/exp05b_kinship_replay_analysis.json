@@ -1,0 +1,365 @@
+{
+  "tau_sweep_mean_nll": {
+    "0.001": 0.295,
+    "0.003": 0.179,
+    "0.01": 0.117,
+    "0.03": 0.152,
+    "0.1": 0.374,
+    "0.3": 0.877,
+    "1.0": 1.374
+  },
+  "tau_chosen": {
+    "covid_2020": 0.01,
+    "covid_2021": 0.01,
+    "covid_2022": 0.01,
+    "flu_2013": 0.01,
+    "flu_2014": 0.01,
+    "flu_2015": 0.01,
+    "flu_2016": 0.01,
+    "flu_2017": 0.01,
+    "flu_2018": 0.01,
+    "flu_2019": 0.01,
+    "flu_2020": 0.01,
+    "flu_2021": 0.03,
+    "flu_2022": 0.01,
+    "othervirus_2013": 0.01,
+    "othervirus_2014": 0.01,
+    "othervirus_2015": 0.01,
+    "othervirus_2016": 0.01,
+    "othervirus_2017": 0.01,
+    "othervirus_2018": 0.01,
+    "othervirus_2019": 0.01,
+    "othervirus_2020": 0.01,
+    "othervirus_2021": 0.01,
+    "othervirus_2022": 0.01
+  },
+  "right_kin_by_week": [
+    {
+      "week": 1,
+      "outbreaks": 23,
+      "group_right": 0.8571428571428571,
+      "true_group_share": 0.668,
+      "exact_best_kin": 0.609
+    },
+    {
+      "week": 2,
+      "outbreaks": 23,
+      "group_right": 0.8095238095238095,
+      "true_group_share": 0.714,
+      "exact_best_kin": 0.652
+    },
+    {
+      "week": 4,
+      "outbreaks": 23,
+      "group_right": 0.9523809523809523,
+      "true_group_share": 0.831,
+      "exact_best_kin": 0.652
+    },
+    {
+      "week": 8,
+      "outbreaks": 23,
+      "group_right": 0.9523809523809523,
+      "true_group_share": 0.912,
+      "exact_best_kin": 0.783
+    },
+    {
+      "week": 13,
+      "outbreaks": 23,
+      "group_right": 0.9523809523809523,
+      "true_group_share": 0.95,
+      "exact_best_kin": 0.826
+    },
+    {
+      "week": 25,
+      "outbreaks": 23,
+      "group_right": 0.9523809523809523,
+      "true_group_share": 0.966,
+      "exact_best_kin": 0.826
+    }
+  ],
+  "calibration_group": [
+    {
+      "bin": "[0.4, 0.6)",
+      "cases": "31",
+      "said": "0.555",
+      "right": "0.71"
+    },
+    {
+      "bin": "[0.6, 0.8)",
+      "cases": "59",
+      "said": "0.699",
+      "right": "0.797"
+    },
+    {
+      "bin": "[0.8, 0.95)",
+      "cases": "43",
+      "said": "0.879",
+      "right": "0.767"
+    },
+    {
+      "bin": "[0.95, 1.0)",
+      "cases": "413",
+      "said": "0.997",
+      "right": "0.993"
+    }
+  ],
+  "stranger": [
+    {
+      "fob": "covid_2020",
+      "novelty_gap": 1.1034119031022867,
+      "stranger_wk1": 0.052982545751034935,
+      "stranger_wk4": 0.9999998627253982,
+      "first_week_stranger_over_half": 4.0,
+      "n_at_that_week": 3538.0,
+      "top_kin_wk4": "flu_2017",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2017"
+    },
+    {
+      "fob": "covid_2021",
+      "novelty_gap": 0.06336431028464773,
+      "stranger_wk1": 4.259972896508607e-10,
+      "stranger_wk4": 4.971944292491263e-09,
+      "first_week_stranger_over_half": 9.0,
+      "n_at_that_week": 183742.0,
+      "top_kin_wk4": "covid_2020",
+      "top_group_wk4": "covid",
+      "hindsight_best": "covid_2020"
+    },
+    {
+      "fob": "covid_2022",
+      "novelty_gap": 0.3040155171358414,
+      "stranger_wk1": 1.6098239164679423e-12,
+      "stranger_wk4": 1.0,
+      "first_week_stranger_over_half": 2.0,
+      "n_at_that_week": 17562.0,
+      "top_kin_wk4": "covid_2020",
+      "top_group_wk4": "covid",
+      "hindsight_best": "flu_2021"
+    },
+    {
+      "fob": "flu_2013",
+      "novelty_gap": 0.9828317203884511,
+      "stranger_wk1": 0.1945043359845903,
+      "stranger_wk4": 0.922312355803323,
+      "first_week_stranger_over_half": 3.0,
+      "n_at_that_week": 296.0,
+      "top_kin_wk4": "h1n1_2009",
+      "top_group_wk4": "flu",
+      "hindsight_best": "h1n1_2009"
+    },
+    {
+      "fob": "flu_2014",
+      "novelty_gap": 0.03627044460628337,
+      "stranger_wk1": 0.11113791004068765,
+      "stranger_wk4": 0.14614895809507908,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "flu_2013",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2013"
+    },
+    {
+      "fob": "flu_2015",
+      "novelty_gap": 0.055799053149798716,
+      "stranger_wk1": 0.0826300755180141,
+      "stranger_wk4": 0.08837167953176908,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2013",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2014"
+    },
+    {
+      "fob": "flu_2016",
+      "novelty_gap": 0.041757524923439426,
+      "stranger_wk1": 0.05619027452951543,
+      "stranger_wk4": 0.10340615891912633,
+      "first_week_stranger_over_half": 10.0,
+      "n_at_that_week": 5534.0,
+      "top_kin_wk4": "flu_2013",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2013"
+    },
+    {
+      "fob": "flu_2017",
+      "novelty_gap": 0.052793538774849935,
+      "stranger_wk1": 0.07066902409946253,
+      "stranger_wk4": 0.1035941687761543,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "flu_2015",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2015"
+    },
+    {
+      "fob": "flu_2018",
+      "novelty_gap": 0.046562656942731095,
+      "stranger_wk1": 0.039773213396428135,
+      "stranger_wk4": 0.05890000307693319,
+      "first_week_stranger_over_half": 21.0,
+      "n_at_that_week": 6721.0,
+      "top_kin_wk4": "flu_2016",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2016"
+    },
+    {
+      "fob": "flu_2019",
+      "novelty_gap": 0.03792438942589982,
+      "stranger_wk1": 0.012447623364856959,
+      "stranger_wk4": 0.01304913019902565,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "flu_2018",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2018"
+    },
+    {
+      "fob": "flu_2020",
+      "novelty_gap": 0.0781085630398719,
+      "stranger_wk1": 0.019488298012730058,
+      "stranger_wk4": 0.028863044563962784,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "flu_2019",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2019"
+    },
+    {
+      "fob": "flu_2021",
+      "novelty_gap": 0.48642095545897757,
+      "stranger_wk1": 0.009105273751929465,
+      "stranger_wk4": 0.020650600829788774,
+      "first_week_stranger_over_half": 18.0,
+      "n_at_that_week": 399.0,
+      "top_kin_wk4": "covid_2021",
+      "top_group_wk4": "covid",
+      "hindsight_best": "flu_2017"
+    },
+    {
+      "fob": "flu_2022",
+      "novelty_gap": 0.07071940430495793,
+      "stranger_wk1": 2.165761864906704e-10,
+      "stranger_wk4": 4.353803149320872e-10,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "flu_2021",
+      "top_group_wk4": "flu",
+      "hindsight_best": "flu_2021"
+    },
+    {
+      "fob": "othervirus_2013",
+      "novelty_gap": 1.7670821926561064,
+      "stranger_wk1": 0.16922700536752544,
+      "stranger_wk4": 0.9925649528219288,
+      "first_week_stranger_over_half": 2.0,
+      "n_at_that_week": 188.0,
+      "top_kin_wk4": "h1n1_2009",
+      "top_group_wk4": "flu",
+      "hindsight_best": "h1n1_2009"
+    },
+    {
+      "fob": "othervirus_2014",
+      "novelty_gap": 0.07161639478977211,
+      "stranger_wk1": 0.09304819651150999,
+      "stranger_wk4": 0.15820240325479967,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2013",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2013"
+    },
+    {
+      "fob": "othervirus_2015",
+      "novelty_gap": 0.01435406293114383,
+      "stranger_wk1": 0.052084426195203856,
+      "stranger_wk4": 0.08075639411539733,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2014",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2014"
+    },
+    {
+      "fob": "othervirus_2016",
+      "novelty_gap": 0.03189666605252128,
+      "stranger_wk1": 0.043448239454889445,
+      "stranger_wk4": 0.07096287069121165,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2013",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2013"
+    },
+    {
+      "fob": "othervirus_2017",
+      "novelty_gap": 0.018511916698101594,
+      "stranger_wk1": 0.029068112747241786,
+      "stranger_wk4": 0.03672102590266041,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2016",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2014"
+    },
+    {
+      "fob": "othervirus_2018",
+      "novelty_gap": 0.015995614781068035,
+      "stranger_wk1": 0.02706802738908808,
+      "stranger_wk4": 0.029343910924890852,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2013",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2017"
+    },
+    {
+      "fob": "othervirus_2019",
+      "novelty_gap": 0.05508860946382832,
+      "stranger_wk1": 0.00015782820496323364,
+      "stranger_wk4": 0.00022251687716769218,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2015",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2018"
+    },
+    {
+      "fob": "othervirus_2020",
+      "novelty_gap": 0.25894349152052865,
+      "stranger_wk1": 0.018608192658642768,
+      "stranger_wk4": 0.026998268338699696,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2019",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2013"
+    },
+    {
+      "fob": "othervirus_2021",
+      "novelty_gap": 0.2802638570671725,
+      "stranger_wk1": 0.0014947551907539668,
+      "stranger_wk4": 0.00749361718086644,
+      "first_week_stranger_over_half": 11.0,
+      "n_at_that_week": 3147.0,
+      "top_kin_wk4": "othervirus_2020",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2018"
+    },
+    {
+      "fob": "othervirus_2022",
+      "novelty_gap": 0.021123419535814314,
+      "stranger_wk1": 0.0011136355837406246,
+      "stranger_wk4": 0.0062449682567464635,
+      "first_week_stranger_over_half": NaN,
+      "n_at_that_week": NaN,
+      "top_kin_wk4": "othervirus_2021",
+      "top_group_wk4": "othervirus",
+      "hindsight_best": "othervirus_2021"
+    }
+  ],
+  "stranger_rank_corr": 0.2608695652173913,
+  "stranger_patients_rank_corr": 0.6683362778124327,
+  "group_right_wk4_profile_only": 0.952,
+  "group_right_wk4_severity_only": 0.571
+}

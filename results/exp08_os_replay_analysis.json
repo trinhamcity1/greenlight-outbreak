@@ -1,0 +1,64 @@
+{
+  "fixed_candidates_mean_gap": {
+    "always kin": 0.004554367596617276,
+    "always consensus": 0.011155125894685031,
+    "always own": 0.08214183613843455,
+    "always kin_age": 0.022343710077471948,
+    "always age_trend": 0.06515962027972332
+  },
+  "rule_chosen": {
+    "flu_2013": "('kin', inf, 'kin|age')",
+    "othervirus_2013": "('kin', inf, 'kin|age')",
+    "othervirus_2014": "('kin', inf, 'kin|age')",
+    "flu_2014": "('kin', inf, 'kin|age')",
+    "othervirus_2015": "('kin', inf, 'kin|age')",
+    "flu_2015": "('kin', inf, 'kin|age')",
+    "flu_2016": "('kin', inf, 'kin|age')",
+    "othervirus_2016": "('kin', inf, 'kin|age')",
+    "flu_2017": "('kin', inf, 'kin|age')",
+    "othervirus_2017": "('kin', inf, 'kin|age')",
+    "othervirus_2018": "('kin', inf, 'kin|age')",
+    "flu_2018": "('kin', inf, 'kin|age')",
+    "othervirus_2019": "('kin', inf, 'kin|age')",
+    "flu_2019": "('kin', inf, 'kin|age')",
+    "othervirus_2020": "('kin', inf, 'kin|age')",
+    "flu_2020": "('kin', inf, 'kin|age')",
+    "covid_2020": "('kin', 100, 'kin|kin_age|age')",
+    "covid_2021": "('kin', inf, 'kin|age')",
+    "othervirus_2021": "('kin', inf, 'kin|age')",
+    "flu_2021": "('kin', inf, 'kin|age')",
+    "covid_2022": "('kin', inf, 'kin|age')",
+    "flu_2022": "('kin', inf, 'kin|age')",
+    "othervirus_2022": "('kin', inf, 'kin|age')"
+  },
+  "mean_gap_final": 0.004657270329257829,
+  "os_at_least_age_only_by_day": {
+    "0": "17/23",
+    "14": "19/23",
+    "28": "23/23",
+    "56": "23/23",
+    "90": "23/23"
+  },
+  "plateau_earlier_same_later_vs_real": [
+    21,
+    0,
+    2
+  ],
+  "outbreaks_ever_below_age": 6,
+  "green_light": {
+    "rules": [
+      [
+        10,
+        0.98
+      ],
+      [
+        20,
+        0.98
+      ]
+    ],
+    "greens": 22,
+    "false_greens": 1,
+    "never_green": 1,
+    "median_green_day": 37.0
+  }
+}

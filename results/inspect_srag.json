@@ -1,0 +1,188 @@
+{
+  "files": {
+    "INFLUD19-23-03-2026.parquet": {
+      "rows": 48941,
+      "DT_SIN_PRI_min": "2018-12-30 00:00:00",
+      "DT_SIN_PRI_max": "2019-12-28 00:00:00",
+      "CLASSI_FIN": {
+        "unspecified": 31365,
+        "other_resp_virus": 9325,
+        "influenza": 7034,
+        "<NA>": 1026,
+        "other_agent": 191
+      },
+      "EVOLUCAO": {
+        "cure": 39255,
+        "death": 5423,
+        "<NA>": 2869,
+        "ignored": 1387,
+        "death_other_cause": 7
+      }
+    },
+    "INFLUD20-23-03-2026.parquet": {
+      "rows": 1206920,
+      "DT_SIN_PRI_min": "2019-12-29 00:00:00",
+      "DT_SIN_PRI_max": "2021-01-02 00:00:00",
+      "CLASSI_FIN": {
+        "covid19": 722119,
+        "unspecified": 440937,
+        "<NA>": 32862,
+        "other_resp_virus": 5042,
+        "other_agent": 3292,
+        "influenza": 2668
+      },
+      "EVOLUCAO": {
+        "cure": 773231,
+        "death": 315445,
+        "<NA>": 76522,
+        "ignored": 24272,
+        "death_other_cause": 17450
+      }
+    },
+    "INFLUD21-23-03-2026.parquet": {
+      "rows": 1745672,
+      "DT_SIN_PRI_min": "2021-01-03 00:00:00",
+      "DT_SIN_PRI_max": "2022-01-01 00:00:00",
+      "CLASSI_FIN": {
+        "covid19": 1224863,
+        "unspecified": 408727,
+        "<NA>": 71141,
+        "other_resp_virus": 21176,
+        "influenza": 14189,
+        "other_agent": 5576
+      },
+      "EVOLUCAO": {
+        "cure": 1093167,
+        "death": 443524,
+        "<NA>": 142650,
+        "ignored": 42788,
+        "death_other_cause": 23543
+      }
+    },
+    "INFLUD22-23-03-2026.parquet": {
+      "rows": 560577,
+      "DT_SIN_PRI_min": "2022-01-02 00:00:00",
+      "DT_SIN_PRI_max": "2022-12-31 00:00:00",
+      "CLASSI_FIN": {
+        "unspecified": 242528,
+        "covid19": 240456,
+        "other_resp_virus": 32881,
+        "<NA>": 27877,
+        "influenza": 12576,
+        "other_agent": 4259
+      },
+      "EVOLUCAO": {
+        "cure": 395099,
+        "death": 92635,
+        "<NA>": 44606,
+        "death_other_cause": 14691,
+        "ignored": 13546
+      }
+    }
+  },
+  "covid_hosp": {
+    "covid_rows": 2187438,
+    "hospitalised": 2094868,
+    "known_outcome_cure_or_death": 1970604,
+    "death_rate": 0.3233,
+    "earliest_symptom_date": "2020-02-15 00:00:00",
+    "earliest_N": {
+      "100": {
+        "deaths": 35,
+        "survivors": 65,
+        "last_symptom_date": "2020-02-29 00:00:00"
+      },
+      "300": {
+        "deaths": 117,
+        "survivors": 183,
+        "last_symptom_date": "2020-03-06 00:00:00"
+      },
+      "1000": {
+        "deaths": 329,
+        "survivors": 671,
+        "last_symptom_date": "2020-03-13 00:00:00"
+      },
+      "3000": {
+        "deaths": 888,
+        "survivors": 2112,
+        "last_symptom_date": "2020-03-19 00:00:00"
+      }
+    },
+    "monthly": {
+      "2020-02": {
+        "n": 102,
+        "death_rate": 0.3627
+      },
+      "2020-03": {
+        "n": 11855,
+        "death_rate": 0.3124
+      },
+      "2020-04": {
+        "n": 54227,
+        "death_rate": 0.3962
+      },
+      "2020-05": {
+        "n": 84666,
+        "death_rate": 0.3883
+      },
+      "2020-06": {
+        "n": 82586,
+        "death_rate": 0.3395
+      },
+      "2020-07": {
+        "n": 87330,
+        "death_rate": 0.3295
+      },
+      "2020-08": {
+        "n": 68162,
+        "death_rate": 0.3121
+      },
+      "2020-09": {
+        "n": 49289,
+        "death_rate": 0.2996
+      }
+    }
+  },
+  "missing_frac_all_rows": {
+    "CLASSI_FIN": 0.0373,
+    "EVOLUCAO": 0.0979,
+    "HOSPITAL": 0.0287,
+    "UTI": 0.1568,
+    "SUPORT_VEN": 0.1697,
+    "NU_IDADE_N": 0.005,
+    "TP_IDADE": 0.0,
+    "CS_SEXO": 1.0,
+    "SG_UF_NOT": 0.0029,
+    "FEBRE": 0.176,
+    "TOSSE": 0.136,
+    "DISPNEIA": 0.1385,
+    "SATURACAO": 0.184,
+    "DESC_RESP": 0.2023,
+    "CARDIOPATI": 0.5411,
+    "DIABETES": 0.5744,
+    "OBESIDADE": 0.636,
+    "RENAL": 0.6417,
+    "PNEUMOPATI": 0.6384,
+    "IMUNODEPRE": 0.6446,
+    "NEUROLOGIC": 0.6382,
+    "ASMA": 0.6404,
+    "VACINA_COV": 0.5292,
+    "CS_RACA": 0.1819,
+    "CS_ESCOL_N": 0.6356,
+    "CS_ZONA": 0.1178,
+    "DT_SIN_PRI": 0.0,
+    "DT_NOTIFIC": 0.0,
+    "DT_INTERNA": 0.0678,
+    "DT_EVOLUCA": 0.1377
+  },
+  "flu_hosp_known_outcome": {
+    "n": 29634,
+    "deaths": 4372,
+    "by_file": {
+      "INFLUD22-23-03-2026.parquet": 10826,
+      "INFLUD21-23-03-2026.parquet": 10012,
+      "INFLUD19-23-03-2026.parquet": 6460,
+      "INFLUD20-23-03-2026.parquet": 2336
+    }
+  }
+}

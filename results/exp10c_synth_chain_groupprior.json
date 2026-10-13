@@ -1,0 +1,1202 @@
+{
+  "config": {
+    "name": "exp10c_synth_chain_groupprior",
+    "os_run": "exp08c_os_replay_groupprior",
+    "kinship_analysis": "exp05c_kinship_groupprior",
+    "vote_prior": "group",
+    "n_rows": 50000,
+    "seed": 0,
+    "profile_model": "chain",
+    "ctgan": false
+  },
+  "outbreaks": {
+    "covid_2020": {
+      "green_day": 44,
+      "recipe": "kin",
+      "early_n": 9333,
+      "early_deaths": 2822,
+      "test_n": 93626,
+      "test_deaths": 31426,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.001617829618069777,
+          "age_ks": 0.013817672774027623,
+          "age_band_tvd": 0.005100325725918763,
+          "death_rate_diff": -0.0004479417122039697,
+          "death_by_band_max_diff": 0.0056514834036984485,
+          "yes_rate_mean_abs_diff": 0.001073037876352724,
+          "yes_rate_max_abs_diff": 0.0041632658309225246,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.0050301862414353395,
+          "corr_max_abs_diff": 0.029557115456457728
+        },
+        "os_vs_later": {
+          "age_mean_diff": 2.4300954990786607,
+          "age_ks": 0.08246302394633975,
+          "age_band_tvd": 0.07138603763911733,
+          "death_rate_diff": -0.033734625851793265,
+          "death_by_band_max_diff": 0.026913847038785743,
+          "yes_rate_mean_abs_diff": 0.03752132035972914,
+          "yes_rate_max_abs_diff": 0.20127848589067143,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.020417770925587973,
+          "corr_max_abs_diff": 0.1149726128760456
+        },
+        "early_vs_later": {
+          "age_mean_diff": 2.4317133286967305,
+          "age_ks": 0.07142949823850908,
+          "age_band_tvd": 0.07213844522510256,
+          "death_rate_diff": -0.033286684139589295,
+          "death_by_band_max_diff": 0.02747793853171221,
+          "yes_rate_mean_abs_diff": 0.037366615762550466,
+          "yes_rate_max_abs_diff": 0.20125275354308758,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.020304793215863377,
+          "corr_max_abs_diff": 0.11937042248727736
+        }
+      },
+      "auc": {
+        "gold": 0.7672277442767094,
+        "age_only": 0.7267558509829554,
+        "os_model": 0.7583839514887524,
+        "real_early": 0.7517391985316191,
+        "os_synth_only": 0.756021368168942,
+        "real_plus_os_synth": 0.756449107309306
+      }
+    },
+    "covid_2021": {
+      "green_day": 22,
+      "recipe": "kin",
+      "early_n": 24097,
+      "early_deaths": 7797,
+      "test_n": 507241,
+      "test_deaths": 165882,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.02502278422369386,
+          "age_ks": 0.014047776901689013,
+          "age_band_tvd": 0.0026150209569656226,
+          "death_rate_diff": -0.0014672490351496092,
+          "death_by_band_max_diff": 0.009031334868285085,
+          "yes_rate_mean_abs_diff": 0.0010824413308710653,
+          "yes_rate_max_abs_diff": 0.0027121575299829392,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.005481638995937272,
+          "corr_max_abs_diff": 0.024732762213424325
+        },
+        "os_vs_later": {
+          "age_mean_diff": -6.907149705824928,
+          "age_ks": 0.22250888733363428,
+          "age_band_tvd": 0.21798645590557547,
+          "death_rate_diff": -0.004927980782310604,
+          "death_by_band_max_diff": 0.08254918105644427,
+          "yes_rate_mean_abs_diff": 0.0264976029959132,
+          "yes_rate_max_abs_diff": 0.09746778596367406,
+          "yes_rate_worst_field": "CARDIOPATI",
+          "corr_mean_abs_diff": 0.012118476469856638,
+          "corr_max_abs_diff": 0.07690152108637205
+        },
+        "early_vs_later": {
+          "age_mean_diff": -6.882126921601234,
+          "age_ks": 0.21072051629269356,
+          "age_band_tvd": 0.2158271016291095,
+          "death_rate_diff": -0.0034607317471609944,
+          "death_by_band_max_diff": 0.07979269811142375,
+          "yes_rate_mean_abs_diff": 0.026572281144701466,
+          "yes_rate_max_abs_diff": 0.09985012650399028,
+          "yes_rate_worst_field": "CARDIOPATI",
+          "corr_mean_abs_diff": 0.012589651260762025,
+          "corr_max_abs_diff": 0.0813940110859579
+        }
+      },
+      "auc": {
+        "gold": 0.7162769107963312,
+        "age_only": 0.6834111643936286,
+        "os_model": 0.7106676254768615,
+        "real_early": 0.70926890468555,
+        "os_synth_only": 0.7105179791534137,
+        "real_plus_os_synth": 0.7104834802363306
+      }
+    },
+    "covid_2022": {
+      "green_day": 22,
+      "recipe": "kin",
+      "early_n": 18117,
+      "early_deaths": 4817,
+      "test_n": 36955,
+      "test_deaths": 8363,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.05768421886943287,
+          "age_ks": 0.012412052768118409,
+          "age_band_tvd": 0.004394641496936577,
+          "death_rate_diff": 0.0004971275597505098,
+          "death_by_band_max_diff": 0.018454849665784888,
+          "yes_rate_mean_abs_diff": 0.001414198473809131,
+          "yes_rate_max_abs_diff": 0.005809271954517858,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.004264289561364527,
+          "corr_max_abs_diff": 0.024854675276623783
+        },
+        "os_vs_later": {
+          "age_mean_diff": 1.032623340526854,
+          "age_ks": 0.06236782032201327,
+          "age_band_tvd": 0.07986017318360167,
+          "death_rate_diff": 0.040077740495196856,
+          "death_by_band_max_diff": 0.09061027333494293,
+          "yes_rate_mean_abs_diff": 0.013819250608848605,
+          "yes_rate_max_abs_diff": 0.06156299553511024,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.01620086727770768,
+          "corr_max_abs_diff": 0.07615985431944597
+        },
+        "early_vs_later": {
+          "age_mean_diff": 1.0903075593962868,
+          "age_ks": 0.05617558540453249,
+          "age_band_tvd": 0.0831332310157909,
+          "death_rate_diff": 0.039580612935446347,
+          "death_by_band_max_diff": 0.09278092468979188,
+          "yes_rate_mean_abs_diff": 0.013305440720346092,
+          "yes_rate_max_abs_diff": 0.061029645642743935,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.016144361330859683,
+          "corr_max_abs_diff": 0.07490379887200936
+        }
+      },
+      "auc": {
+        "gold": 0.7510247374969061,
+        "age_only": 0.6574770753721675,
+        "os_model": 0.7425111357345132,
+        "real_early": 0.7428824509536202,
+        "os_synth_only": 0.7419750670823955,
+        "real_plus_os_synth": 0.7426809160396264
+      }
+    },
+    "flu_2013": {
+      "green_day": 52,
+      "recipe": "kin",
+      "early_n": 1243,
+      "early_deaths": 244,
+      "test_n": 2483,
+      "test_deaths": 371,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.04436134784207724,
+          "age_ks": 0.016015961383748986,
+          "age_band_tvd": 0.007727385358004827,
+          "death_rate_diff": -0.0008392759452936494,
+          "death_by_band_max_diff": 0.02234462430055955,
+          "yes_rate_mean_abs_diff": 0.0011314320193081284,
+          "yes_rate_max_abs_diff": 0.0021799195494770773,
+          "yes_rate_worst_field": "METABOLIC",
+          "corr_mean_abs_diff": 0.0188050007397965,
+          "corr_max_abs_diff": 0.18253438184542906
+        },
+        "os_vs_later": {
+          "age_mean_diff": -0.770907151530885,
+          "age_ks": 0.0472142247281514,
+          "age_band_tvd": 0.051550326218284336,
+          "death_rate_diff": 0.04604397100281918,
+          "death_by_band_max_diff": 0.08873923885555174,
+          "yes_rate_mean_abs_diff": 0.024239421063229967,
+          "yes_rate_max_abs_diff": 0.10047546516310912,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.03217855321740674,
+          "corr_max_abs_diff": 0.1678817562035355
+        },
+        "early_vs_later": {
+          "age_mean_diff": -0.7265458036888077,
+          "age_ks": 0.040685025024551506,
+          "age_band_tvd": 0.043963310932684976,
+          "death_rate_diff": 0.04688324694811283,
+          "death_by_band_max_diff": 0.0976409470277636,
+          "yes_rate_mean_abs_diff": 0.023661562340731135,
+          "yes_rate_max_abs_diff": 0.09857829702151621,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.03161525127838463,
+          "corr_max_abs_diff": 0.17923331695823724
+        }
+      },
+      "auc": {
+        "gold": 0.8270797598627787,
+        "age_only": 0.6868688995752674,
+        "os_model": 0.8175245548476681,
+        "real_early": 0.7848668626970514,
+        "os_synth_only": 0.818517469166054,
+        "real_plus_os_synth": 0.8187012476517193
+      }
+    },
+    "flu_2014": {
+      "green_day": 32,
+      "recipe": "kin",
+      "early_n": 131,
+      "early_deaths": 21,
+      "test_n": 751,
+      "test_deaths": 135,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.5565083721388078,
+          "age_ks": 0.033329770992366406,
+          "age_band_tvd": 0.017565954198473288,
+          "death_rate_diff": -0.00010534351145036203,
+          "death_by_band_max_diff": 0.1243716448204564,
+          "yes_rate_mean_abs_diff": 0.0017588835877862664,
+          "yes_rate_max_abs_diff": 0.008223206106870329,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.0452407933736432,
+          "corr_max_abs_diff": 0.2220412111560789
+        },
+        "os_vs_later": {
+          "age_mean_diff": 1.6500232176658542,
+          "age_ks": 0.07635661784287617,
+          "age_band_tvd": 0.1257891877496671,
+          "death_rate_diff": -0.019560319573901447,
+          "death_by_band_max_diff": 0.15568026789036343,
+          "yes_rate_mean_abs_diff": 0.020774069573901467,
+          "yes_rate_max_abs_diff": 0.0659680958721705,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.03335085632588804,
+          "corr_max_abs_diff": 0.15916455078701683
+        },
+        "early_vs_later": {
+          "age_mean_diff": 1.0935148455270465,
+          "age_ks": 0.07767760034966101,
+          "age_band_tvd": 0.1433000274443236,
+          "death_rate_diff": -0.019454976062451085,
+          "death_by_band_max_diff": 0.18790849673202617,
+          "yes_rate_mean_abs_diff": 0.02032849330663441,
+          "yes_rate_max_abs_diff": 0.06363017249265612,
+          "yes_rate_worst_field": "PNEUMOPATI",
+          "corr_mean_abs_diff": 0.05811964268522819,
+          "corr_max_abs_diff": 0.2985316715228674
+        }
+      },
+      "auc": {
+        "gold": 0.8014309764309764,
+        "age_only": 0.7310004810004811,
+        "os_model": 0.802982202982203,
+        "real_early": 0.7420514670514671,
+        "os_synth_only": 0.7993265993265994,
+        "real_plus_os_synth": 0.7993386243386243
+      }
+    },
+    "flu_2015": {
+      "green_day": 60,
+      "recipe": "kin",
+      "early_n": 156,
+      "early_deaths": 22,
+      "test_n": 579,
+      "test_deaths": 96,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.32830166893494805,
+          "age_ks": 0.035231282051282065,
+          "age_band_tvd": 0.007487179487179481,
+          "death_rate_diff": -0.009045641025641038,
+          "death_by_band_max_diff": 0.2346539196124668,
+          "yes_rate_mean_abs_diff": 0.0009762820512820674,
+          "yes_rate_max_abs_diff": 0.003854871794871789,
+          "yes_rate_worst_field": "CARDIOPATI",
+          "corr_mean_abs_diff": 0.06697888803117041,
+          "corr_max_abs_diff": 0.2919672929658879
+        },
+        "os_vs_later": {
+          "age_mean_diff": 10.788628839739722,
+          "age_ks": 0.177580103626943,
+          "age_band_tvd": 0.191454335060449,
+          "death_rate_diff": -0.033823108808290175,
+          "death_by_band_max_diff": 0.09530460424341455,
+          "yes_rate_mean_abs_diff": 0.02853777633851469,
+          "yes_rate_max_abs_diff": 0.08465678756476691,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.0478295458349329,
+          "corr_max_abs_diff": 0.17953665205068117
+        },
+        "early_vs_later": {
+          "age_mean_diff": 10.460327170804774,
+          "age_ks": 0.16995482928125416,
+          "age_band_tvd": 0.18975023249634648,
+          "death_rate_diff": -0.024777467782649137,
+          "death_by_band_max_diff": 0.3194117647058824,
+          "yes_rate_mean_abs_diff": 0.028306430184668517,
+          "yes_rate_max_abs_diff": 0.08379832602630533,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.0820746981092421,
+          "corr_max_abs_diff": 0.3593023585311375
+        }
+      },
+      "auc": {
+        "gold": 0.749126552795031,
+        "age_only": 0.6646825396825398,
+        "os_model": 0.7589393547273982,
+        "real_early": 0.6500280365769497,
+        "os_synth_only": 0.7555749654934438,
+        "real_plus_os_synth": 0.7552298999309868
+      }
+    },
+    "flu_2016": {
+      "green_day": 20,
+      "recipe": "kin",
+      "early_n": 124,
+      "early_deaths": 29,
+      "test_n": 3896,
+      "test_deaths": 849,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.9641671676189887,
+          "age_ks": 0.04392387096774193,
+          "age_band_tvd": 0.022478064516129017,
+          "death_rate_diff": -0.013550967741935482,
+          "death_by_band_max_diff": 0.1120945552136845,
+          "yes_rate_mean_abs_diff": 0.0020518951612903246,
+          "yes_rate_max_abs_diff": 0.005530967741935511,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.06306166983228867,
+          "corr_max_abs_diff": 0.3059379852276589
+        },
+        "os_vs_later": {
+          "age_mean_diff": -1.424505780342848,
+          "age_ks": 0.06146316221765913,
+          "age_band_tvd": 0.09383963039014373,
+          "death_rate_diff": 0.002404188911704297,
+          "death_by_band_max_diff": 0.04224137931034483,
+          "yes_rate_mean_abs_diff": 0.02191985369609856,
+          "yes_rate_max_abs_diff": 0.08010156057494866,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.022360911977903807,
+          "corr_max_abs_diff": 0.1197991121985955
+        },
+        "early_vs_later": {
+          "age_mean_diff": -2.3886729479618367,
+          "age_ks": 0.07422832350798172,
+          "age_band_tvd": 0.11517188845465987,
+          "death_rate_diff": 0.01595515665363978,
+          "death_by_band_max_diff": 0.10941828254847646,
+          "yes_rate_mean_abs_diff": 0.021983361760614696,
+          "yes_rate_max_abs_diff": 0.0746505928330132,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.07294274128374777,
+          "corr_max_abs_diff": 0.3156707737751993
+        }
+      },
+      "auc": {
+        "gold": 0.7748052400882446,
+        "age_only": 0.6898248600739959,
+        "os_model": 0.7761421669076884,
+        "real_early": 0.7361234650081585,
+        "os_synth_only": 0.7756278453424809,
+        "real_plus_os_synth": 0.7755969203329232
+      }
+    },
+    "flu_2017": {
+      "green_day": 24,
+      "recipe": "kin",
+      "early_n": 110,
+      "early_deaths": 23,
+      "test_n": 1577,
+      "test_deaths": 225,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.7576407734379487,
+          "age_ks": 0.03141090909090909,
+          "age_band_tvd": 0.018743636363636376,
+          "death_rate_diff": 0.0009090909090909149,
+          "death_by_band_max_diff": 0.25924245548910424,
+          "yes_rate_mean_abs_diff": 0.0014643181818181808,
+          "yes_rate_max_abs_diff": 0.005725454545454534,
+          "yes_rate_worst_field": "PNEUMOPATI",
+          "corr_mean_abs_diff": 0.06946847054130137,
+          "corr_max_abs_diff": 0.4025400300956639
+        },
+        "os_vs_later": {
+          "age_mean_diff": 4.303679333620735,
+          "age_ks": 0.10162289156626514,
+          "age_band_tvd": 0.11501509194673432,
+          "death_rate_diff": 0.06732403297400125,
+          "death_by_band_max_diff": 0.21156686548308318,
+          "yes_rate_mean_abs_diff": 0.02046806753329105,
+          "yes_rate_max_abs_diff": 0.048103005707038626,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.02892952006802421,
+          "corr_max_abs_diff": 0.09015266197292432
+        },
+        "early_vs_later": {
+          "age_mean_diff": 3.5460385601827866,
+          "age_ks": 0.09890470974808324,
+          "age_band_tvd": 0.1087969101285525,
+          "death_rate_diff": 0.06641494206491033,
+          "death_by_band_max_diff": 0.4708093209721874,
+          "yes_rate_mean_abs_diff": 0.019506975269499054,
+          "yes_rate_max_abs_diff": 0.048383005707038684,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.07440722416780353,
+          "corr_max_abs_diff": 0.41081111802071024
+        }
+      },
+      "auc": {
+        "gold": 0.7954174884944116,
+        "age_only": 0.6772600262984879,
+        "os_model": 0.8003057199211044,
+        "real_early": 0.6569033530571993,
+        "os_synth_only": 0.7996745562130178,
+        "real_plus_os_synth": 0.7996153846153846
+      }
+    },
+    "flu_2018": {
+      "green_day": 22,
+      "recipe": "kin",
+      "early_n": 164,
+      "early_deaths": 30,
+      "test_n": 3973,
+      "test_deaths": 746,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.336261838572689,
+          "age_ks": 0.030811707317073167,
+          "age_band_tvd": 0.014382439024390244,
+          "death_rate_diff": 0.0053931707317073085,
+          "death_by_band_max_diff": 0.1449645373497073,
+          "yes_rate_mean_abs_diff": 0.0012916463414634164,
+          "yes_rate_max_abs_diff": 0.003916585365853709,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.046409846163734884,
+          "corr_max_abs_diff": 0.20075825644130113
+        },
+        "os_vs_later": {
+          "age_mean_diff": -0.04408989518805129,
+          "age_ks": 0.06853151774477717,
+          "age_band_tvd": 0.10782199345582685,
+          "death_rate_diff": 0.0005525698464636242,
+          "death_by_band_max_diff": 0.05772972247691033,
+          "yes_rate_mean_abs_diff": 0.020511819783538887,
+          "yes_rate_max_abs_diff": 0.08109404480241622,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.02684230678167957,
+          "corr_max_abs_diff": 0.12413296385602243
+        },
+        "early_vs_later": {
+          "age_mean_diff": -0.3803517337607403,
+          "age_ks": 0.07494029823258212,
+          "age_band_tvd": 0.11744979833387564,
+          "death_rate_diff": -0.004840600885243684,
+          "death_by_band_max_diff": 0.1737725644447566,
+          "yes_rate_mean_abs_diff": 0.02108938075914865,
+          "yes_rate_max_abs_diff": 0.0805359960219284,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.06317011541389617,
+          "corr_max_abs_diff": 0.25359980813949673
+        }
+      },
+      "auc": {
+        "gold": 0.7902533167285746,
+        "age_only": 0.7088697825236298,
+        "os_model": 0.7904880154128495,
+        "real_early": 0.7254798030358793,
+        "os_synth_only": 0.790002417604146,
+        "real_plus_os_synth": 0.7898819527927482
+      }
+    },
+    "flu_2019": {
+      "green_day": 72,
+      "recipe": "kin",
+      "early_n": 239,
+      "early_deaths": 23,
+      "test_n": 2736,
+      "test_deaths": 470,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.0075565723128363516,
+          "age_ks": 0.06291288702928871,
+          "age_band_tvd": 0.00841405857740584,
+          "death_rate_diff": 0.0027056903765690365,
+          "death_by_band_max_diff": 0.10415332938154516,
+          "yes_rate_mean_abs_diff": 0.0010037133891213368,
+          "yes_rate_max_abs_diff": 0.003810627615062734,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.04210080697595672,
+          "corr_max_abs_diff": 0.177875547645213
+        },
+        "os_vs_later": {
+          "age_mean_diff": 9.083232432068773,
+          "age_ks": 0.1939534502923977,
+          "age_band_tvd": 0.1843898245614035,
+          "death_rate_diff": -0.07284362573099415,
+          "death_by_band_max_diff": 0.13126247166429547,
+          "yes_rate_mean_abs_diff": 0.02376198830409356,
+          "yes_rate_max_abs_diff": 0.15656538011695903,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.029484383391425662,
+          "corr_max_abs_diff": 0.1401697728830151
+        },
+        "early_vs_later": {
+          "age_mean_diff": 9.090789004381609,
+          "age_ks": 0.19450714477966186,
+          "age_band_tvd": 0.18868060143384963,
+          "death_rate_diff": -0.07554931610756319,
+          "death_by_band_max_diff": 0.16285714285714287,
+          "yes_rate_mean_abs_diff": 0.023591956923340443,
+          "yes_rate_max_abs_diff": 0.15881383199980426,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.05887589856642956,
+          "corr_max_abs_diff": 0.25241258538453265
+        }
+      },
+      "auc": {
+        "gold": 0.7762962197892997,
+        "age_only": 0.7045055491915645,
+        "os_model": 0.7866077632344932,
+        "real_early": 0.6697306153875044,
+        "os_synth_only": 0.7830303656269366,
+        "real_plus_os_synth": 0.782809712493662
+      }
+    },
+    "flu_2020": {
+      "green_day": 44,
+      "recipe": "kin",
+      "early_n": 285,
+      "early_deaths": 22,
+      "test_n": 397,
+      "test_deaths": 75,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.13797374900923742,
+          "age_ks": 0.03883052631578948,
+          "age_band_tvd": 0.006171929824561398,
+          "death_rate_diff": 0.004207017543859645,
+          "death_by_band_max_diff": 0.04448661184904071,
+          "yes_rate_mean_abs_diff": 0.0012657456140350797,
+          "yes_rate_max_abs_diff": 0.004308771929824595,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.04596582594538631,
+          "corr_max_abs_diff": 0.32543335473384205
+        },
+        "os_vs_later": {
+          "age_mean_diff": 15.80302064229248,
+          "age_ks": 0.24929531486146095,
+          "age_band_tvd": 0.24525309823677582,
+          "death_rate_diff": -0.10751687657430731,
+          "death_by_band_max_diff": 0.2179662562699498,
+          "yes_rate_mean_abs_diff": 0.05767379093198992,
+          "yes_rate_max_abs_diff": 0.16671133501259439,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.048800484638099315,
+          "corr_max_abs_diff": 0.19738922597456737
+        },
+        "early_vs_later": {
+          "age_mean_diff": 15.940994391301718,
+          "age_ks": 0.24959123248928367,
+          "age_band_tvd": 0.24806222104379339,
+          "death_rate_diff": -0.11172389411816695,
+          "death_by_band_max_diff": 0.2117647058823529,
+          "yes_rate_mean_abs_diff": 0.05745282601970922,
+          "yes_rate_max_abs_diff": 0.16642361571434883,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.07673048432044881,
+          "corr_max_abs_diff": 0.3672785022853982
+        }
+      },
+      "auc": {
+        "gold": 0.7764803312629399,
+        "age_only": 0.7339958592132505,
+        "os_model": 0.7680331262939959,
+        "real_early": 0.6967701863354038,
+        "os_synth_only": 0.7638923395445135,
+        "real_plus_os_synth": 0.7632712215320911
+      }
+    },
+    "flu_2021": {
+      "green_day": 32,
+      "recipe": "kin",
+      "early_n": 104,
+      "early_deaths": 20,
+      "test_n": 202,
+      "test_deaths": 26,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.27057599315842396,
+          "age_ks": 0.030164615384615456,
+          "age_band_tvd": 0.012407692307692304,
+          "death_rate_diff": 0.0047323076923076746,
+          "death_by_band_max_diff": 0.19189765458422176,
+          "yes_rate_mean_abs_diff": 0.0015484615384615237,
+          "yes_rate_max_abs_diff": 0.004023076923076907,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.05202916246879778,
+          "corr_max_abs_diff": 0.4331217284745127
+        },
+        "os_vs_later": {
+          "age_mean_diff": -10.999459611953888,
+          "age_ks": 0.2875655445544555,
+          "age_band_tvd": 0.2946649504950495,
+          "death_rate_diff": 0.06832712871287128,
+          "death_by_band_max_diff": 0.1200214828843599,
+          "yes_rate_mean_abs_diff": 0.03650482673267328,
+          "yes_rate_max_abs_diff": 0.09958514851485148,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.060627610778862806,
+          "corr_max_abs_diff": 0.2809946678049103
+        },
+        "early_vs_later": {
+          "age_mean_diff": -10.728883618795464,
+          "age_ks": 0.287033511043412,
+          "age_band_tvd": 0.2995049504950495,
+          "death_rate_diff": 0.0635948210205636,
+          "death_by_band_max_diff": 0.25,
+          "yes_rate_mean_abs_diff": 0.035647134424980964,
+          "yes_rate_max_abs_diff": 0.10148514851485149,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.08103761302109491,
+          "corr_max_abs_diff": 0.3417111452803554
+        }
+      },
+      "auc": {
+        "gold": 0.7741477272727273,
+        "age_only": 0.7979676573426574,
+        "os_model": 0.803868006993007,
+        "real_early": 0.6491477272727273,
+        "os_synth_only": 0.8014641608391609,
+        "real_plus_os_synth": 0.8008085664335665
+      }
+    },
+    "flu_2022": {
+      "green_day": 20,
+      "recipe": "kin",
+      "early_n": 3293,
+      "early_deaths": 543,
+      "test_n": 1648,
+      "test_deaths": 176,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.09294594202695805,
+          "age_ks": 0.012324670513209846,
+          "age_band_tvd": 0.006157412693592455,
+          "death_rate_diff": -0.002115232310962639,
+          "death_by_band_max_diff": 0.018038347285984344,
+          "yes_rate_mean_abs_diff": 0.0011048417096872138,
+          "yes_rate_max_abs_diff": 0.0033117886425750864,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.009106678210757868,
+          "corr_max_abs_diff": 0.0456443302785243
+        },
+        "os_vs_later": {
+          "age_mean_diff": -11.31448100937429,
+          "age_ks": 0.15806097087378643,
+          "age_band_tvd": 0.15285456310679613,
+          "death_rate_diff": 0.055983883495145645,
+          "death_by_band_max_diff": 0.0581856899703079,
+          "yes_rate_mean_abs_diff": 0.016118895631067963,
+          "yes_rate_max_abs_diff": 0.05699650485436891,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.02992252222389727,
+          "corr_max_abs_diff": 0.1375299901369337
+        },
+        "early_vs_later": {
+          "age_mean_diff": -11.221535067347332,
+          "age_ks": 0.1560750370748189,
+          "age_band_tvd": 0.1533408613151168,
+          "death_rate_diff": 0.058099115806108284,
+          "death_by_band_max_diff": 0.06409376786735277,
+          "yes_rate_mean_abs_diff": 0.01696718860100419,
+          "yes_rate_max_abs_diff": 0.05792184952488211,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.031876727509367354,
+          "corr_max_abs_diff": 0.14589598254612193
+        }
+      },
+      "auc": {
+        "gold": 0.7758615365612649,
+        "age_only": 0.7096772325839921,
+        "os_model": 0.7734375,
+        "real_early": 0.7750046319169961,
+        "os_synth_only": 0.7693459733201582,
+        "real_plus_os_synth": 0.7700060214920947
+      }
+    },
+    "othervirus_2014": {
+      "green_day": 46,
+      "recipe": "kin",
+      "early_n": 285,
+      "early_deaths": 23,
+      "test_n": 792,
+      "test_deaths": 33,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.24175719632883297,
+          "age_ks": 0.09395122807017545,
+          "age_band_tvd": 0.006928070175438643,
+          "death_rate_diff": -0.0010217543859649125,
+          "death_by_band_max_diff": 0.2764367816091954,
+          "yes_rate_mean_abs_diff": 0.0006891666666666695,
+          "yes_rate_max_abs_diff": 0.003028070175438602,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.049700976407031784,
+          "corr_max_abs_diff": 0.581822498640121
+        },
+        "os_vs_later": {
+          "age_mean_diff": 1.2728003286489615,
+          "age_ks": 0.21589959595959596,
+          "age_band_tvd": 0.12234282828282828,
+          "death_rate_diff": 0.038013333333333336,
+          "death_by_band_max_diff": 0.17042768106597894,
+          "yes_rate_mean_abs_diff": 0.020833207070707068,
+          "yes_rate_max_abs_diff": 0.08999535353535348,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.0365689477660885,
+          "corr_max_abs_diff": 0.16598631056575583
+        },
+        "early_vs_later": {
+          "age_mean_diff": 1.5145575249777945,
+          "age_ks": 0.17913343965975545,
+          "age_band_tvd": 0.11951089845826685,
+          "death_rate_diff": 0.03903508771929825,
+          "death_by_band_max_diff": 0.3,
+          "yes_rate_mean_abs_diff": 0.021105794790005315,
+          "yes_rate_max_abs_diff": 0.08862307283359905,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.05956721813507182,
+          "corr_max_abs_diff": 0.584773260058424
+        }
+      },
+      "auc": {
+        "gold": 0.7895556354054377,
+        "age_only": 0.6426518145885736,
+        "os_model": 0.8035692897352976,
+        "real_early": 0.7404878827803729,
+        "os_synth_only": 0.7966622749231445,
+        "real_plus_os_synth": 0.796582425040923
+      }
+    },
+    "othervirus_2015": {
+      "green_day": 76,
+      "recipe": "kin",
+      "early_n": 554,
+      "early_deaths": 27,
+      "test_n": 1129,
+      "test_deaths": 60,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.041357028984003286,
+          "age_ks": 0.1094997833935018,
+          "age_band_tvd": 0.0035000722021660702,
+          "death_rate_diff": -0.0019364620938628133,
+          "death_by_band_max_diff": 0.12798578666842142,
+          "yes_rate_mean_abs_diff": 0.0006437003610108405,
+          "yes_rate_max_abs_diff": 0.004148808664259929,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.05395228323605226,
+          "corr_max_abs_diff": 0.49794917212272094
+        },
+        "os_vs_later": {
+          "age_mean_diff": 1.8901008087010887,
+          "age_ks": 0.20572719220549157,
+          "age_band_tvd": 0.041174207263064616,
+          "death_rate_diff": -0.006344375553587245,
+          "death_by_band_max_diff": 0.09083154068689264,
+          "yes_rate_mean_abs_diff": 0.01409667626217892,
+          "yes_rate_max_abs_diff": 0.06959401240035434,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.047427027470740554,
+          "corr_max_abs_diff": 0.2660779964512899
+        },
+        "early_vs_later": {
+          "age_mean_diff": 1.931457837685092,
+          "age_ks": 0.16833369040043744,
+          "age_band_tvd": 0.03985348524140396,
+          "death_rate_diff": -0.0044079134597244315,
+          "death_by_band_max_diff": 0.10256410256410256,
+          "yes_rate_mean_abs_diff": 0.013791017417413565,
+          "yes_rate_max_abs_diff": 0.06949538424150947,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.057274721770348376,
+          "corr_max_abs_diff": 0.33635495168438245
+        }
+      },
+      "auc": {
+        "gold": 0.839881509198628,
+        "age_only": 0.8295213595260368,
+        "os_model": 0.8409260991580917,
+        "real_early": 0.8115840349236048,
+        "os_synth_only": 0.8383847832865607,
+        "real_plus_os_synth": 0.8387433738696601
+      }
+    },
+    "othervirus_2016": {
+      "green_day": 38,
+      "recipe": "kin",
+      "early_n": 360,
+      "early_deaths": 31,
+      "test_n": 2412,
+      "test_deaths": 154,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.030041178049573958,
+          "age_ks": 0.06518666666666667,
+          "age_band_tvd": 0.004186666666666682,
+          "death_rate_diff": -0.003311111111111112,
+          "death_by_band_max_diff": 0.18202146690518783,
+          "yes_rate_mean_abs_diff": 0.0008941666666666688,
+          "yes_rate_max_abs_diff": 0.0033422222222222464,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.04839279413725475,
+          "corr_max_abs_diff": 0.552504070125632
+        },
+        "os_vs_later": {
+          "age_mean_diff": -2.8607203916969492,
+          "age_ks": 0.20755532338308458,
+          "age_band_tvd": 0.13979897180762854,
+          "death_rate_diff": 0.018952570480928688,
+          "death_by_band_max_diff": 0.11573177937610793,
+          "yes_rate_mean_abs_diff": 0.017800099502487565,
+          "yes_rate_max_abs_diff": 0.04699923714759535,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.035207873673503524,
+          "corr_max_abs_diff": 0.18055565038364285
+        },
+        "early_vs_later": {
+          "age_mean_diff": -2.890761569746523,
+          "age_ks": 0.19071310116086235,
+          "age_band_tvd": 0.1394278606965174,
+          "death_rate_diff": 0.0222636815920398,
+          "death_by_band_max_diff": 0.17820512820512824,
+          "yes_rate_mean_abs_diff": 0.017762748756218905,
+          "yes_rate_max_abs_diff": 0.04726368159203975,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.059650996127185545,
+          "corr_max_abs_diff": 0.4806316419812249
+        }
+      },
+      "auc": {
+        "gold": 0.8577438947235227,
+        "age_only": 0.7999220664189663,
+        "os_model": 0.8548278559350304,
+        "real_early": 0.7553230648890525,
+        "os_synth_only": 0.8577870313919915,
+        "real_plus_os_synth": 0.857847422727848
+      }
+    },
+    "othervirus_2017": {
+      "green_day": 44,
+      "recipe": "kin",
+      "early_n": 274,
+      "early_deaths": 21,
+      "test_n": 2382,
+      "test_deaths": 139,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.09742614655004722,
+          "age_ks": 0.09493036496350366,
+          "age_band_tvd": 0.005133138686131394,
+          "death_rate_diff": -0.002782335766423366,
+          "death_by_band_max_diff": 0.1766435622768326,
+          "yes_rate_mean_abs_diff": 0.0008438412408759078,
+          "yes_rate_max_abs_diff": 0.0033435036496349824,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.04828014484112143,
+          "corr_max_abs_diff": 0.28561835798823876
+        },
+        "os_vs_later": {
+          "age_mean_diff": -0.4068567867384747,
+          "age_ks": 0.22744308984047018,
+          "age_band_tvd": 0.16048557514693537,
+          "death_rate_diff": 0.01550567590260285,
+          "death_by_band_max_diff": 0.07889929301121518,
+          "yes_rate_mean_abs_diff": 0.01769889273719564,
+          "yes_rate_max_abs_diff": 0.07855521410579347,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.02850110388059497,
+          "corr_max_abs_diff": 0.13462894716646193
+        },
+        "early_vs_later": {
+          "age_mean_diff": -0.3094306401884275,
+          "age_ks": 0.19204863728572566,
+          "age_band_tvd": 0.16118455324912517,
+          "death_rate_diff": 0.018288011669026216,
+          "death_by_band_max_diff": 0.20715630885122407,
+          "yes_rate_mean_abs_diff": 0.01760025771142449,
+          "yes_rate_max_abs_diff": 0.0795565279744066,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.05760296741689253,
+          "corr_max_abs_diff": 0.25577814675721966
+        }
+      },
+      "auc": {
+        "gold": 0.7958925770663005,
+        "age_only": 0.7570106197698997,
+        "os_model": 0.7764556076939608,
+        "real_early": 0.6813972807487403,
+        "os_synth_only": 0.7746241704808244,
+        "real_plus_os_synth": 0.7739409898741728
+      }
+    },
+    "othervirus_2018": {
+      "green_day": 66,
+      "recipe": "kin",
+      "early_n": 375,
+      "early_deaths": 24,
+      "test_n": 4165,
+      "test_deaths": 239,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.002035415569560328,
+          "age_ks": 0.08949333333333333,
+          "age_band_tvd": 0.003679999999999982,
+          "death_rate_diff": -0.0004800000000000082,
+          "death_by_band_max_diff": 0.1367897203644215,
+          "yes_rate_mean_abs_diff": 0.0010712500000000023,
+          "yes_rate_max_abs_diff": 0.0036533333333333973,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.034674919676012,
+          "corr_max_abs_diff": 0.218382745013795
+        },
+        "os_vs_later": {
+          "age_mean_diff": -2.288824158376375,
+          "age_ks": 0.1842824969987995,
+          "age_band_tvd": 0.10401570228091238,
+          "death_rate_diff": 0.006137046818727482,
+          "death_by_band_max_diff": 0.052907460282985375,
+          "yes_rate_mean_abs_diff": 0.02843609093637456,
+          "yes_rate_max_abs_diff": 0.09507130852340935,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.026360872069449873,
+          "corr_max_abs_diff": 0.126434287598183
+        },
+        "early_vs_later": {
+          "age_mean_diff": -2.2908595739459354,
+          "age_ks": 0.14398719487795117,
+          "age_band_tvd": 0.10192236894757907,
+          "death_rate_diff": 0.00661704681872749,
+          "death_by_band_max_diff": 0.18969718064740687,
+          "yes_rate_mean_abs_diff": 0.02901900760304122,
+          "yes_rate_max_abs_diff": 0.09693797519007603,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.0484080401877274,
+          "corr_max_abs_diff": 0.21010840278406165
+        }
+      },
+      "auc": {
+        "gold": 0.8281465479572936,
+        "age_only": 0.7951996879509418,
+        "os_model": 0.8240333193365974,
+        "real_early": 0.7022766366056565,
+        "os_synth_only": 0.8242954917010723,
+        "real_plus_os_synth": 0.8240940665917806
+      }
+    },
+    "othervirus_2019": {
+      "green_day": 42,
+      "recipe": "kin",
+      "early_n": 309,
+      "early_deaths": 20,
+      "test_n": 2264,
+      "test_deaths": 132,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.20219353648573613,
+          "age_ks": 0.17214375404530746,
+          "age_band_tvd": 0.00524019417475727,
+          "death_rate_diff": -0.0010049190938511282,
+          "death_by_band_max_diff": 0.09001406469760898,
+          "yes_rate_mean_abs_diff": 0.0008798139158576097,
+          "yes_rate_max_abs_diff": 0.0026108737864077858,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.04531191764402297,
+          "corr_max_abs_diff": 0.4625429670936658
+        },
+        "os_vs_later": {
+          "age_mean_diff": 4.516644234728803,
+          "age_ks": 0.154113851590106,
+          "age_band_tvd": 0.09432720848056536,
+          "death_rate_diff": 0.005416113074204948,
+          "death_by_band_max_diff": 0.10046212577858149,
+          "yes_rate_mean_abs_diff": 0.014060008833922256,
+          "yes_rate_max_abs_diff": 0.0844162544169611,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.03674130597918787,
+          "corr_max_abs_diff": 0.21639638436289438
+        },
+        "early_vs_later": {
+          "age_mean_diff": 4.718837771214539,
+          "age_ks": 0.09117808501149267,
+          "age_band_tvd": 0.09866118906308961,
+          "death_rate_diff": 0.006421032168056076,
+          "death_by_band_max_diff": 0.19047619047619047,
+          "yes_rate_mean_abs_diff": 0.01447832329868377,
+          "yes_rate_max_abs_diff": 0.08321754891534294,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.06345996962789792,
+          "corr_max_abs_diff": 0.4191323791204655
+        }
+      },
+      "auc": {
+        "gold": 0.8231298680993804,
+        "age_only": 0.7990274461311047,
+        "os_model": 0.8309952242879071,
+        "real_early": 0.7772062794928649,
+        "os_synth_only": 0.8238636363636364,
+        "real_plus_os_synth": 0.824009324009324
+      }
+    },
+    "othervirus_2020": {
+      "green_day": 58,
+      "recipe": "kin",
+      "early_n": 352,
+      "early_deaths": 21,
+      "test_n": 1119,
+      "test_deaths": 112,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": -0.003168319730358249,
+          "age_ks": 0.06747181818181817,
+          "age_band_tvd": 0.003031818181818158,
+          "death_rate_diff": 0.0024009090909090855,
+          "death_by_band_max_diff": 0.07255292969578683,
+          "yes_rate_mean_abs_diff": 0.0007803409090909012,
+          "yes_rate_max_abs_diff": 0.0031872727272727053,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.039785708300461624,
+          "corr_max_abs_diff": 0.27002075605593906
+        },
+        "os_vs_later": {
+          "age_mean_diff": 11.885512100996362,
+          "age_ks": 0.22984974084003573,
+          "age_band_tvd": 0.21921070598748885,
+          "death_rate_diff": -0.03802936550491511,
+          "death_by_band_max_diff": 0.047867711053089644,
+          "yes_rate_mean_abs_diff": 0.05879124329758713,
+          "yes_rate_max_abs_diff": 0.17329361930294906,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.040877178073510254,
+          "corr_max_abs_diff": 0.2182349782792633
+        },
+        "early_vs_later": {
+          "age_mean_diff": 11.88868042072672,
+          "age_ks": 0.22834155902185393,
+          "age_band_tvd": 0.21965888780567064,
+          "death_rate_diff": -0.0404302745958242,
+          "death_by_band_max_diff": 0.0676470588235294,
+          "yes_rate_mean_abs_diff": 0.058535675115768945,
+          "yes_rate_max_abs_diff": 0.1748263465756763,
+          "yes_rate_worst_field": "DESC_RESP",
+          "corr_mean_abs_diff": 0.05684623349670565,
+          "corr_max_abs_diff": 0.29678790561559676
+        }
+      },
+      "auc": {
+        "gold": 0.8189902823095474,
+        "age_only": 0.8086918357213788,
+        "os_model": 0.8588274932614555,
+        "real_early": 0.7827085402184708,
+        "os_synth_only": 0.8555114200595829,
+        "real_plus_os_synth": 0.8554582210242587
+      }
+    },
+    "othervirus_2021": {
+      "green_day": 28,
+      "recipe": "kin",
+      "early_n": 529,
+      "early_deaths": 23,
+      "test_n": 4331,
+      "test_deaths": 147,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.0591178169861557,
+          "age_ks": 0.0872778449905482,
+          "age_band_tvd": 0.00468888468809074,
+          "death_rate_diff": -0.00019826086956521716,
+          "death_by_band_max_diff": 0.06954952085158345,
+          "yes_rate_mean_abs_diff": 0.0009688799621928115,
+          "yes_rate_max_abs_diff": 0.002502041587901696,
+          "yes_rate_worst_field": "GARGANTA",
+          "corr_mean_abs_diff": 0.030080144322847443,
+          "corr_max_abs_diff": 0.1907793479480109
+        },
+        "os_vs_later": {
+          "age_mean_diff": -5.703446250035592,
+          "age_ks": 0.1837232140383283,
+          "age_band_tvd": 0.10785161856384204,
+          "death_rate_diff": 0.009338646963749711,
+          "death_by_band_max_diff": 0.10540998465820464,
+          "yes_rate_mean_abs_diff": 0.017537850380974378,
+          "yes_rate_max_abs_diff": 0.08031154467790347,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.025168447596896563,
+          "corr_max_abs_diff": 0.1395997561462484
+        },
+        "early_vs_later": {
+          "age_mean_diff": -5.7625640670217475,
+          "age_ks": 0.14726513345778597,
+          "age_band_tvd": 0.107064775463653,
+          "death_rate_diff": 0.009536907833314928,
+          "death_by_band_max_diff": 0.11168751907232224,
+          "yes_rate_mean_abs_diff": 0.01760047798021823,
+          "yes_rate_max_abs_diff": 0.07950114770247818,
+          "yes_rate_worst_field": "FEBRE",
+          "corr_mean_abs_diff": 0.03727250327526166,
+          "corr_max_abs_diff": 0.17348939427900578
+        }
+      },
+      "auc": {
+        "gold": 0.8553454364537402,
+        "age_only": 0.7587480977094471,
+        "os_model": 0.8405937422770255,
+        "real_early": 0.7841615613740716,
+        "os_synth_only": 0.8266143455470142,
+        "real_plus_os_synth": 0.8292726746530352
+      }
+    },
+    "othervirus_2022": {
+      "green_day": 36,
+      "recipe": "kin",
+      "early_n": 1040,
+      "early_deaths": 50,
+      "test_n": 12564,
+      "test_deaths": 353,
+      "fidelity": {
+        "os_vs_early": {
+          "age_mean_diff": 0.1336890717560859,
+          "age_ks": 0.12127384615384615,
+          "age_band_tvd": 0.006469230769230772,
+          "death_rate_diff": -0.0015169230769230824,
+          "death_by_band_max_diff": 0.09634922735359416,
+          "yes_rate_mean_abs_diff": 0.0011841346153846233,
+          "yes_rate_max_abs_diff": 0.003141538461538529,
+          "yes_rate_worst_field": "SATURACAO",
+          "corr_mean_abs_diff": 0.023071215156448138,
+          "corr_max_abs_diff": 0.236917631049683
+        },
+        "os_vs_later": {
+          "age_mean_diff": -4.951766237789836,
+          "age_ks": 0.11057705189430117,
+          "age_band_tvd": 0.07404569245463227,
+          "death_rate_diff": 0.01846385227634511,
+          "death_by_band_max_diff": 0.0780911330049261,
+          "yes_rate_mean_abs_diff": 0.014099487822349571,
+          "yes_rate_max_abs_diff": 0.03647551098376313,
+          "yes_rate_worst_field": "CARDIOPATI",
+          "corr_mean_abs_diff": 0.01897047451845705,
+          "corr_max_abs_diff": 0.07630412103445244
+        },
+        "early_vs_later": {
+          "age_mean_diff": -5.085455309545922,
+          "age_ks": 0.07852900840006849,
+          "age_band_tvd": 0.07531163519702203,
+          "death_rate_diff": 0.01998077535326819,
+          "death_by_band_max_diff": 0.13125564588979224,
+          "yes_rate_mean_abs_diff": 0.014181314745426495,
+          "yes_rate_max_abs_diff": 0.039518587906840055,
+          "yes_rate_worst_field": "CARDIOPATI",
+          "corr_mean_abs_diff": 0.034325622489297596,
+          "corr_max_abs_diff": 0.2171587398210973
+        }
+      },
+      "auc": {
+        "gold": 0.8319155881139075,
+        "age_only": 0.7691200730869372,
+        "os_model": 0.8166468815675645,
+        "real_early": 0.7454064892495806,
+        "os_synth_only": 0.8095321336379241,
+        "real_plus_os_synth": 0.8091509698565102
+      }
+    }
+  }
+}

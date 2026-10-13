@@ -1,0 +1,12 @@
+# Out-of-country test, Step 1: Kinship Vote replay for Mexico COVID-19 2020 and 2021 against the Atlas
+# (Brazil 2009-2022 + Mexico). Run with OUTBREAK_LIB=data/processed/library_intl.parquet. Settings as Exp. 5b.
+name = "exp11_kinship_mexico"
+only = ["covid_mx_2020", "covid_mx_2021"]
+weeks = 26
+min_kin_rows = 200
+min_kin_deaths = 20
+max_fit_rows = 100000
+own_C = 0.3
+own_min_rows = 30
+day0_mode = "threshold"
+season_threshold = 20
